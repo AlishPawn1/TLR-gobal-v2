@@ -191,7 +191,7 @@ include("header.php"); ?>
         <div class="main-title">
             <h2 class="title f-s-2">Losing sleep over cyber security?<span class="inner-text">Good thing our software is awake 24/7.</span></h2>
         </div>
-        <div class="row g-5">
+        <div class="row gy-5">
             <div class="col-md-4">
                 <div class="security-box">
                     <h3 class="title f-s-4">A key reason to believe</h3>

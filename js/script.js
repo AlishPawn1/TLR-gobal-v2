@@ -70,6 +70,7 @@ jQuery(function ($){
             $('.overlay').removeClass('active');
             $('.hamburger').removeClass('active');
             $('.nav-item').removeClass('active');
+            $('body').removeClass('overflow-hidden');
         });
     });
 

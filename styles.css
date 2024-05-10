@@ -29,7 +29,6 @@
 
 
 body {
-
     font-family: var(--primary-fonts);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -40,9 +39,9 @@ body {
 img {
     max-width: 100%;
 }
-body, html{
+/* body, html{
     overflow-x:hidden;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--secondary-fonts);
@@ -380,6 +379,21 @@ header .nav-item{
 .sub-menu .menu-dropdown a .dropdown-btn svg path{
     stroke: #fff !important;
 }
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 7;
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+}
+.overlay.active {
+    opacity: 0.3;
+    visibility: visible;
+}
 
 @media screen and (max-width: 1024px) {
     header{
@@ -578,6 +592,14 @@ header .nav-item{
     .nav-item .top-header-list a{
         font-size: 14px;
         font-weight: 400;
+    }
+    .hamburger.active {
+        /* margin-right: 8px; */
+        margin-right: 0;
+    }
+    .nav-item.active{
+        min-width: 100%;
+        max-width: 100%;
     }
 }
 
@@ -861,10 +883,6 @@ header .nav-item{
     .cyber-war-sec{
         padding: 60px 0;
     }
-    .cyber-war-sec .common-box .inner-content, .cyber-war-sec .common-box{
-        flex-direction: column;
-        overflow: hidden;
-    }
     .cyber-war-sec .common-box .inner-content{
         padding: 40px;
         padding-bottom: 0;
@@ -888,6 +906,10 @@ header .nav-item{
     .cyber-war-sec .common-box .inner-content{
         padding: 16px;
         padding-top: 24px;
+    }
+    .cyber-war-sec .common-box .inner-content, .cyber-war-sec .common-box{
+        flex-direction: column;
+        overflow: hidden;
     }
 }
 
