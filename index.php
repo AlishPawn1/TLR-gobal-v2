@@ -6,7 +6,7 @@ include("header.php"); ?>
 
 <!-- banner -->
 
-<section class="banner-sec fourth-bg">
+<section class="banner-sec fourth-bg hello">
     <div class="container">
         <div class="background-image">
             <img src="image/banner-2.png" alt="">
