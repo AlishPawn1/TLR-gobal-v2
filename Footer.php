@@ -39,7 +39,7 @@
                     <div class="footer-item">
                         <h3 class="title">Our Software solutions</h3>
                         <div class="footer-software">
-                            <div class="row g-1">
+                            <div class="row custom-gap">
                                 <div class="col-12">
                                     <div class="software-box">
                                         <div class="inner-content">

@@ -544,7 +544,7 @@ header .nav-item{
 }
 .banner-sec .background-image img{
     height: 526px;
-    opacity: 0.15;
+    /* opacity: 0.15;    */
     width: 100%;
     object-fit: cover;
     margin-top: 200px;
@@ -857,7 +857,7 @@ header .nav-item{
 .we-protect-box img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 @media screen and (max-width: 575px) {
     

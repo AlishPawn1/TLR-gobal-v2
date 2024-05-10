@@ -9,7 +9,7 @@ include("header.php"); ?>
 <section class="banner-sec fourth-bg">
     <div class="container">
         <div class="background-image">
-            <img src="image/banner.png" alt="">
+            <img src="image/banner-2.png" alt="">
         </div>
         <div class="banner-content">
             <div class="main-title">
@@ -514,42 +514,42 @@ include("header.php"); ?>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs.png" alt="">
+                                <img src="image/sbs-2.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs.png" alt="">
+                                <img src="image/sbs-2.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs.png" alt="">
+                                <img src="image/sbs-2.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs.png" alt="">
+                                <img src="image/sbs-2.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs.png" alt="">
+                                <img src="image/sbs-2.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs.png" alt="">
+                                <img src="image/sbs-2.png" alt="">
                             </div>
                         </div>
                     </div>
