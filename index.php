@@ -9,7 +9,7 @@ include("header.php"); ?>
 <section class="banner-sec fourth-bg">
     <div class="container">
         <div class="background-image">
-            <img src="image/banner-2.png" alt="">
+           
         </div>
         <div class="banner-content">
             <div class="main-title">
@@ -568,7 +568,7 @@ include("header.php"); ?>
         <div class="row gy-5">
             <div class="col-md-5">
                 <div class="main-title">
-                    <h2 class="title f-s-2"><span class="inner-text">What our clients are  saying about us</span></h2>
+                    <h2 class="title f-s-2"><span class="inner-text">What our clients are saying about us</span></h2>
                 </div>
             </div>
             <div class="col-md-7">
