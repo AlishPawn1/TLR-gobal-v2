@@ -15,7 +15,9 @@ include("header.php"); ?>
             <div class="main-title">
                 <h1 class="title">Next Generation Cyber</h1>
                 <p>TLR is a leading Australian cyber security company, bringing together experience, expertise and cutting edge software.</p>
-                <a href="#" class="btn-box big">Request a demo</a>
+                <div class="btn-wrap">
+                    <a href="#" class="btn-box big">Request a demo</a>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -164,7 +166,7 @@ include("header.php"); ?>
 <section class="hero-home-sec fourth-bg">
     <div class="container">
         <div class="image">
-            <img src="image/hero-sec.png" alt="">
+            <img src="image/hero-img.png" alt="">
         </div>
         <div class="content">
             <div class="main-title">
@@ -290,7 +292,7 @@ include("header.php"); ?>
                 </div>
             </div>
             <div class="image">
-                <img src="image/lego-city.png" alt="">
+                <img src="image/lego-building.png" alt="">
             </div>
             <div class="arrow-btn">
                 <a href="#">
@@ -514,42 +516,42 @@ include("header.php"); ?>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs-2.png" alt="">
+                                <img src="image/sbs.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs-2.png" alt="">
+                                <img src="image/sbs.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs-2.png" alt="">
+                                <img src="image/sbs.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs-2.png" alt="">
+                                <img src="image/sbs.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs-2.png" alt="">
+                                <img src="image/sbs.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs-2.png" alt="">
+                                <img src="image/sbs.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -849,9 +851,9 @@ include("header.php"); ?>
                     <li class="splide__slide">
                         <div class="new-box">
                             <div class="image">
-                                <img src="image/news.png" class="img-cover" alt="">
-                                <div class="arrow-btn">
-                                    <a href="#">
+                                <a href="#">
+                                    <img src="image/news.png" class="img-cover" alt="">
+                                    <div class="arrow-btn">
                                         <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_7_113)">
                                             <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -864,8 +866,8 @@ include("header.php"); ?>
                                             </clipPath>
                                             </defs>
                                         </svg>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
                             <div class="content">
                                 <ul class="top-news">
@@ -877,7 +879,7 @@ include("header.php"); ?>
                                     </li>
                                 </ul>
                                 <div class="body-news">
-                                    <h3 class="title f-s-4">What Does DoS Stand For and the Ways to Prevent It</h3>
+                                    <h3 class="title f-s-4"><a href="#">What Does DoS Stand For and the Ways to Prevent It</a></h3>
                                 </div>
                                 <div class="footer-news">
                                     <span class="time">4 min read</span>
@@ -888,9 +890,9 @@ include("header.php"); ?>
                     <li class="splide__slide">
                         <div class="new-box">
                             <div class="image">
-                                <img src="image/news.png" class="img-cover" alt="">
-                                <div class="arrow-btn">
-                                    <a href="#">
+                                <a href="#">
+                                    <img src="image/news.png" class="img-cover" alt="">
+                                    <div class="arrow-btn">
                                         <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_7_113)">
                                             <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -903,8 +905,8 @@ include("header.php"); ?>
                                             </clipPath>
                                             </defs>
                                         </svg>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
                             <div class="content">
                                 <ul class="top-news">
@@ -916,7 +918,7 @@ include("header.php"); ?>
                                     </li>
                                 </ul>
                                 <div class="body-news">
-                                    <h3 class="title f-s-4">What Does DoS Stand For and the Ways to Prevent It</h3>
+                                    <h3 class="title f-s-4"><a href="#">What Does DoS Stand For and the Ways to Prevent It</a></h3>
                                 </div>
                                 <div class="footer-news">
                                     <span class="time">4 min read</span>
@@ -927,9 +929,9 @@ include("header.php"); ?>
                     <li class="splide__slide">
                         <div class="new-box">
                             <div class="image">
-                                <img src="image/news.png" class="img-cover" alt="">
-                                <div class="arrow-btn">
-                                    <a href="#">
+                                <a href="#">
+                                    <img src="image/news.png" class="img-cover" alt="">
+                                    <div class="arrow-btn">
                                         <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_7_113)">
                                             <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -942,8 +944,8 @@ include("header.php"); ?>
                                             </clipPath>
                                             </defs>
                                         </svg>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
                             <div class="content">
                                 <ul class="top-news">
@@ -955,7 +957,7 @@ include("header.php"); ?>
                                     </li>
                                 </ul>
                                 <div class="body-news">
-                                    <h3 class="title f-s-4">What Does DoS Stand For and the Ways to Prevent It</h3>
+                                    <h3 class="title f-s-4"><a href="#">What Does DoS Stand For and the Ways to Prevent It</a></h3>
                                 </div>
                                 <div class="footer-news">
                                     <span class="time">4 min read</span>
