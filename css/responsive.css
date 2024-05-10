@@ -1,0 +1,35 @@
+
+
+@media screen and (min-width: 1400px) {
+    .container{
+        max-width: 1345px;
+    }
+    .sub-menu span.dropdown-btn{
+        background-color: transparent;
+    }
+    .primary-menu .menu-dropdown:hover > .sub-menu{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 575px) {
+    .main-title .title .inner-text{
+        display: inline;
+    }
+}
+@media screen and (max-width: 420px) {
+
+}
