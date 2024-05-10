@@ -76,6 +76,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
+/* btn */
+
 .btn-box{
     background-color: var(--primary-color);
     color: var(--dark-color);
@@ -146,6 +148,15 @@ a, input[type="submit"], button {
     -o-transition: var(--default-transition);
     transition: var(--default-transition);
 }
+
+/* custom-gap */
+
+.custom-gap{
+    --bs-gutter-y: 0.13rem;
+    --bs-gutter-x: 0.13rem;
+}
+
+/* custom-gap */
 
 
 .social-links ul,
@@ -840,6 +851,7 @@ header .nav-item{
 }
 .we-protect-box .image{
     height: 122px;
+    background-color: #fff;
 }
 .we-protect-box img{
     height: 100%;

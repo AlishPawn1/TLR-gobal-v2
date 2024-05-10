@@ -20,7 +20,7 @@ include("header.php"); ?>
         </div>
         <div class="row">
             <div class="col-md-9 offset-md-3">
-                <div class="row g-1">
+                <div class="row custom-gap">
                     <div class="col-md-4">
                         <div class="explore-box">
                             <h2 class="title f-s-4">Explore next gen cyber software solutions</h2>
@@ -322,7 +322,7 @@ include("header.php"); ?>
             <h2 class="title f-s-2"><span class="inner-text">Our services</span></h2>
             <p>We support cyber professionals in delivering technical training and services. Proactively helping you become cyber secure.</p>
         </div>
-        <div class="row g-1">
+        <div class="row custom-gap">
             <div class="col-md-6">
                 <div class="common-box">
                     <div class="inner-content">
@@ -510,7 +510,7 @@ include("header.php"); ?>
                 </div>
             </div>
             <div class="col-md-7">
-                <div class="row g-1">
+                <div class="row custom-gap">
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
@@ -602,7 +602,7 @@ include("header.php"); ?>
                 </div>
             </div>
             <div class="col-md-7">
-                <div class="row g-1">
+                <div class="row custom-gap">
                     <div class="col-md-6">
                         <div class="industry-box">
                             <div class="image">
