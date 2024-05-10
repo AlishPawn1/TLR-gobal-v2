@@ -6,11 +6,10 @@ include("header.php"); ?>
 
 <!-- banner -->
 
-\
 <section class="banner-sec fourth-bg">
     <div class="container">
         <div class="background-image">
-           
+           <img src="image/banner-2.png" alt="">
         </div>
         <div class="banner-content">
             <div class="main-title">
