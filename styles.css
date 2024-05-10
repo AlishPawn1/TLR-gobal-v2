@@ -151,9 +151,10 @@ a, input[type="submit"], button {
 
 /* custom-gap */
 
-.custom-gap{
-    --bs-gutter-y: 0.13rem;
-    --bs-gutter-x: 0.13rem;
+.custom-gap > *{
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-top: 2px;
 }
 
 /* custom-gap */
