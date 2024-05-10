@@ -21,15 +21,15 @@ include("header.php"); ?>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-9 offset-md-3">
+            <div class="col-xl-9 offset-xl-3">
                 <div class="row custom-gap">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="explore-box">
                             <h2 class="title f-s-4">Explore next gen cyber software solutions</h2>
                             <p>Quam erat nec elit diam massa non amet neque viverra. </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="common-box">
                             <div class="inner-content">
                                 <div class="icon">
@@ -91,7 +91,7 @@ include("header.php"); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="common-box">
                             <div class="inner-content">
                                 <div class="icon">
@@ -387,7 +387,7 @@ include("header.php"); ?>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-xl-4 col-md-6">
                 <div class="common-box">
                     <div class="inner-content">
                         <div class="icon">
@@ -418,7 +418,7 @@ include("header.php"); ?>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-xl-4 col-md-6">
                 <div class="common-box">
                     <div class="inner-content">
                         <div class="icon">
@@ -457,7 +457,7 @@ include("header.php"); ?>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-xl-4 col-md-6">
                 <div class="common-box">
                     <div class="inner-content">
                         <div class="icon">
@@ -506,12 +506,12 @@ include("header.php"); ?>
 <section class="we-protect-sec fourth-bg">
     <div class="container">
         <div class="row gy-5">
-            <div class="col-md-5">
+            <div class="col-lg-5">
                 <div class="main-title">
                     <h2 class="title f-s-2"><span class="inner-text">Companies we protect</span></h2>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <div class="row custom-gap">
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
@@ -568,12 +568,12 @@ include("header.php"); ?>
 <section class="home-our-client-sec fourth-bg">
     <div class="container">
         <div class="row gy-5">
-            <div class="col-md-5">
+            <div class="col-lg-5">
                 <div class="main-title">
                     <h2 class="title f-s-2"><span class="inner-text">What our clients are saying about us</span></h2>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <div class="home-client-box">
                     <div class="content">
                         <p>"TLR Global has been an invaluable partner in safeguarding our digital assets. Their expert team provided comprehensive cyber security solutions tailored to our unique needs, ensuring our business remains protected against ever-evolving threats. Their professionalism, expertise, and proactive approach make them a trusted ally in the realm of cybersecurity."</p>
@@ -596,14 +596,14 @@ include("header.php"); ?>
         <div class="background-image">
             <img src="image/top-bg-design.png" alt="">
         </div>
-        <div class="row g-5">
-            <div class="col-md-5">
+        <div class="row gy-5">
+            <div class="col-lg-5">
                 <div class="main-title">
                     <h2 class="title f-s-2">Industry solutions</h2>
                     <p>Quam erat nec elit diam massa non amet neque viverra. Sapien amet eget sodales ultrices elementum semitae eleifend pretium massa.</p>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <div class="row custom-gap">
                     <div class="col-md-6">
                         <div class="industry-box">

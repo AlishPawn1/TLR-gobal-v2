@@ -8,7 +8,7 @@
         <div class="container">
             <div class="cyber-attact-box">
                 <div class="arrow-btn">
-                    <a href="#">
+                    <button id="button">
                         <svg width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_7_278)">
                             <path d="M9.5 0.893066L9.5 21.8931" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -21,7 +21,7 @@
                             </clipPath>
                             </defs>
                         </svg>                        
-                    </a>
+                    </button>
                 </div>
                 <div class="content">
                     <h2 class="title f-s-2">Worried about a cyber attack? <br>
@@ -34,12 +34,12 @@
     <!-- cyber-attact-sec -->
     <div class="container">
         <div class="footer-top">
-            <div class="row">
-                <div class="col-md-5">
+            <div class="row g-md-5">
+                <div class="col-lg-5">
                     <div class="footer-item">
                         <h3 class="title">Our Software solutions</h3>
                         <div class="footer-software">
-                            <div class="row custom-gap">
+                            <div class="row">
                                 <div class="col-12">
                                     <div class="software-box">
                                         <div class="inner-content">
@@ -168,7 +168,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-lg-7">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="footer-item">

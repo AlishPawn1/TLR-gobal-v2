@@ -156,6 +156,10 @@ a, input[type="submit"], button {
 
 /* custom-gap */
 
+.custom-gap{
+    margin-left: -1px;
+    margin-right: -1px;
+}
 .custom-gap > *{
     padding-left: 1px;
     padding-right: 1px;
@@ -275,14 +279,15 @@ header .nav-item{
 .sub-menu{
     display: none;
     /* padding: 25px; */
-    padding: 15px 0;
+    padding: 30px;
     opacity: 0;
     position: absolute;
-    top: 115px;
+    top: 130px;
     visibility: hidden;
     background-color: #fff;
     box-shadow: 1px 1px 4px -2px;
     z-index: 6;
+    border-top: 4px solid var(--primary-color);
 }
 .primary-menu .menu-dropdown .sub-menu .menu-dropdown:hover .sub-menu{
     visibility: visible;
@@ -304,17 +309,11 @@ header .nav-item{
 }
 .primary-menu .menu-dropdown .sub-menu .menu-dropdown .sub-menu{
     top: 0px;
-    right: 200px;
+    right: 242px;
 }
 .sub-menu li{
     min-width: 200px;
-}
-.primary-menu .sub-menu a{
-    padding: 5px 20px;
-    width: 100%;
     position: relative;
-    margin: 0;
-    color: var(--fourth-color);
 }
 .sub-menu span{
     position: relative;
@@ -341,8 +340,46 @@ header .nav-item{
 .nav-item .top-header-list{
     display: none;
 }
+.primary-menu .sub-menu a{
+    padding: 12px 0;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    color: var(--fourth-color);
+    font-weight: 600;
+}
+.primary-menu .menu-dropdown a{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 15px;
+}
+.sub-menu li:not(.menu-dropdown)::before{
+    content: '';
+    background-image: url('data:image/svg+xml,<svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(%23clip0_15_866)"><path d="M9.24266 4.5H0.757812" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/><path d="M5.60596 0.805176L9.24232 4.49991" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/><path d="M9.24232 4.5L5.60596 8.19474" stroke="white" stroke-miterlimit="10" stroke-linecap="round"/></g><defs><clipPath id="clip0_15_866"><rect width="10" height="9" fill="white"/></clipPath></defs></svg>');
+    background-position: center center;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    --size: 24px;
+    height: var(--size);
+    width: var(--size);
+    background-color: var(--fourth-color);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sub-menu li:not(.menu-dropdown) a {
+    padding-left: 40px;
+}
+.sub-menu .menu-dropdown a .dropdown-btn{
+    background-color: var(--fourth-color) !important;
+}
+.sub-menu .menu-dropdown a .dropdown-btn svg path{
+    stroke: #fff !important;
+}
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1024px) {
     header{
         height: 70px;
     }
@@ -355,6 +392,9 @@ header .nav-item{
         padding-right: 0;
         position: relative;
         z-index: 10;
+    }
+    .hamburger.active{
+        margin-right: -22px;
     }
     .hamburger .icon.close{
         display: none;
@@ -398,14 +438,15 @@ header .nav-item{
         width: auto;
     }
     .nav-item.active{
-        left: 0;
-        min-width: 100%;
+        min-width: 300px;
+        max-width: 300px;
         opacity: 1;
         visibility: visible;
     }
     .primary-menu a{
         color: var(--fourth-color);
         width: 100%;
+        font-weight: 600;
     }
     .primary-menu {
         flex-direction: column;
@@ -440,6 +481,8 @@ header .nav-item{
         display: flex;
         flex-direction: row-reverse;
         justify-content: start;
+        gap: 0;
+        font-size: 18px;
     }
     .primary-menu li:not(.menu-dropdown)::before{
         content: '';
@@ -483,6 +526,30 @@ header .nav-item{
         box-shadow: none;
         padding: 6px 0;
         padding-left: 35px;
+        border: none;
+    }
+    .sub-menu .menu-dropdown a{
+        padding-left: 0;
+    }
+    .sub-menu .menu-dropdown a .dropdown-btn svg{
+        transform: rotate(90deg) !important;
+    }
+    .sub-menu .menu-dropdown.open a .dropdown-btn svg{
+        transform: rotate(-90deg) !important;
+    }
+    .nav-item .top-header-list{
+        display: flex;
+        order: 3;
+        padding: 0;
+        gap: 16px;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .nav-item .top-header-list a{
+        color: var(--fourth-color);
+        font-size: 16px;
+        font-weight: 600;
     }
     .sub-menu li:not(.menu-dropdown)::before{
         content: '';
@@ -499,32 +566,16 @@ header .nav-item{
         top: 50%;
         transform: translateY(-50%);
     }
-    .sub-menu .menu-dropdown a{
-        padding-left: 0;
+}
+@media screen and (max-width: 991px) {
+    .hamburger.active{
+        margin-right: -16px;
     }
-    .sub-menu .menu-dropdown a .dropdown-btn svg{
-        transform: rotate(90deg) !important;
-    }
-    .sub-menu .menu-dropdown a .dropdown-btn{
-        background-color: var(--fourth-color) !important;
-    }
-    .sub-menu .menu-dropdown a .dropdown-btn svg path{
-        stroke: #fff !important;
-    }
-    .sub-menu .menu-dropdown.open a .dropdown-btn svg{
-        transform: rotate(-90deg) !important;
-    }
-    .nav-item .top-header-list{
-        display: flex;
-        order: 3;
-        padding: 0;
-        gap: 16px;
-        align-items: start;
-        justify-content: start;
-        flex-direction: column;
-    }
+}
+@media screen and (max-width: 575px) {
     .nav-item .top-header-list a{
-        color: var(--fourth-color);
+        font-size: 14px;
+        font-weight: 400;
     }
 }
 
@@ -603,11 +654,25 @@ header .nav-item{
     font-weight: 600;
 }
 
+@media screen and (max-width: 1024px) {
+    .banner-sec .common-box{
+        max-height: 400px;
+        min-height: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
 
 /* common-box */
 
 .common-box{
     background-color: var(--primary-color);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .common-box .title{
     margin-top: 5px;
@@ -631,7 +696,7 @@ header .nav-item{
 /* common-box */
 
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1024px) {
     .banner-sec .main-title .title{
         font-size: 48px;
         line-height: 52px;
@@ -642,6 +707,7 @@ header .nav-item{
     }
     .banner-sec .banner-content{
         margin-bottom: 100px;
+        max-width: 650px;
     }
     .explore-box{
         min-height: 232px;
@@ -684,7 +750,7 @@ header .nav-item{
     gap: 8px;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1024px) {
     .hero-home-sec{
         padding: 100px 0;
     }
@@ -705,6 +771,8 @@ header .nav-item{
         line-height: 28px;
         margin-bottom: 48px;
     }
+}
+@media screen and (max-width: 575px) {
     .hero-home-sec .btns{
         flex-direction: column;
         max-width: 264px;
@@ -735,7 +803,7 @@ header .nav-item{
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1024px) {
     .security-home-sec .main-title .title{
         font-size: 40px;
         line-height: 52px;
@@ -758,8 +826,8 @@ header .nav-item{
     padding-left: 40px;
 }
 .cyber-war-sec .common-box{
-    display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 .cyber-war-sec .common-box .icon svg {
     --size: 120px;
@@ -787,7 +855,7 @@ header .nav-item{
     margin-top: 0;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1024px) {
     .cyber-war-sec{
         padding: 60px 0;
     }
@@ -796,19 +864,27 @@ header .nav-item{
         overflow: hidden;
     }
     .cyber-war-sec .common-box .inner-content{
-        padding: 16px;
-        padding-top: 24px;
+        padding: 40px;
+        padding-bottom: 0;
         align-items: start;
     }
     .cyber-war-sec .common-box .title{
         font-size: 32px;
         line-height: 44px;
     }
+    .cyber-war-sec .image{
+        margin: 0 auto;
+    }
     .cyber-war-sec .image img{
         object-fit: cover;
         height: auto;
     }
-    
+}
+@media screen and (max-width: 575px) {
+    .cyber-war-sec .common-box .inner-content{
+        padding: 16px;
+        padding-top: 24px;
+    }
 }
 
 /* cyber-war-sec */
@@ -837,7 +913,7 @@ header .nav-item{
 .home-service-sec .common-box .title{
     margin-top: 16px;
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1024px) {
     .home-service-sec{
         padding: 80px 0;
     }
@@ -846,6 +922,12 @@ header .nav-item{
     }
     .home-service-sec .main-title{
         margin-bottom: 60px;
+    }
+    .home-service-sec .common-box{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
     }
 }
 
@@ -866,7 +948,7 @@ header .nav-item{
     width: 100%;
     object-fit: contain;
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1024px) {
     
 }
 
@@ -892,7 +974,7 @@ header .nav-item{
     line-height: 25px;
     color: var(--primary-color);
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1024px) {
 
 }
 
@@ -958,7 +1040,7 @@ header .nav-item{
 .industry-box .title{
     color: #fff;
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1024px) {
     .home-industry-sec{
         padding: 80px 0;
     }
@@ -966,6 +1048,20 @@ header .nav-item{
         height: 100%;
         width: 100%;
     }
+    .industry-box{
+        height: 220px;
+    }
+    .industry-box .title {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .industry-box{
+        height: 280px;
+    }
+    .industry-box .title {
+        font-size: 32px;
+    }   
 }
 
 /* home-industry-sec */
@@ -1037,13 +1133,9 @@ header .nav-item{
 .new-box .title a{
     color: var(--fourth-color);
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1024px) {
     .home-news-sec{
         padding-top: 80px ;
-    }
-    .home-news-sec .main-title{
-        flex-direction: column;
-        align-items: start;
     }
     .news-slide .splide__track{
         overflow: visible;
@@ -1053,6 +1145,12 @@ header .nav-item{
     }
     .home-news-sec .main-title{
         margin-bottom: 60px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .home-news-sec .main-title{
+        flex-direction: column;
+        align-items: start;
     }
 }
 
@@ -1068,11 +1166,22 @@ header .nav-item{
 .cyber-attact-box{
     border-top: 4px solid var(--fourth-color);
 }
+.cyber-attact-box .arrow-btn button{
+    border: none;
+    --size: 60px;
+    height: var(--size);
+    width: var(--size);
+    background-color: #1E1E1E;
+    display: grid;
+    place-content: center;
+    padding: 20px;
+    margin-left: auto;
+}
 .cyber-attact-box .title{
     margin-bottom: 30px;
 }
-@media screen and (max-width: 575px) {
-    .cyber-attact-sec .arrow-btn a{
+@media screen and (max-width: 1024px) {
+    .cyber-attact-sec .arrow-btn button{
         --size: 50px;
     }
 }
@@ -1127,6 +1236,9 @@ footer .background-image{
 .footer-software{
     margin-top: 24px;
     max-width: 425px;
+}
+.footer-software .row > *{
+    margin-top: 2px;
 }
 .footer-item .title{
     font-size: 18px;
@@ -1203,22 +1315,8 @@ footer .background-image{
     letter-spacing: 0.2px;
     color: var(--fourth-color);
 }
-@media screen and (max-width: 575px) {
-    .footer-bottom{
-        flex-direction: column-reverse;
-        align-items: end;
-        gap: 32px;
-    }
-    .footer-bottom-link{
-        flex-direction: column;
-        gap: 16px;
-        align-items: start;
-    }
-    .footer-bottom-list{
-        gap: 8px;
-    }
+@media screen and (max-width: 1024px) {
     footer .background-image{
-        /* height: 50%; */
         top: 0;
     }
     footer .background-image img{
@@ -1227,21 +1325,38 @@ footer .background-image{
         object-fit: cover;
         object-position: left;
     }
-    .footer-list{
-        display: none;
-    }
     .footer-title-list{
         display: block;
     }
     .footer-list.active{
         padding-bottom: 20px;
     }
-    footer .col-md-7{
-        margin-top: 32px;
-    }
     .footer-middle{
         padding-top: 80px;
         padding-bottom: 32px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .footer-bottom-link{
+        flex-direction: column;
+        gap: 16px;
+        align-items: start;
+    }
+    .footer-bottom-list{
+        gap: 8px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .footer-bottom{
+        flex-direction: column-reverse;
+        align-items: end;
+        gap: 32px;
+    }
+    .footer-list{
+        display: none;
+    }
+    footer .col-md-7{
+        margin-top: 32px;
     }
 }
 

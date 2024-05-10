@@ -46,13 +46,11 @@
                         <li>
                             <a href="#">services</a>
                             <ul class="sub-menu">
-                                <li><a href="#">service 1</a></li>
+                                <li><a href="#">Penetration Testing</a></li>
                                 <li>
-                                    <a href="#">service 2</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="#">service 2.1</a></li>
-                                    </ul>
+                                    <a href="#">Vulnerability Scanning</a>
                                 </li>
+                                <li><a href="#">Threat Hunting</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Cyber War games</a></li>
