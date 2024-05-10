@@ -288,10 +288,8 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/splide-auto-scroll.js"></script>
-<script src="js/jquery.fancybox.js"></script>
 <script src="js/splide.min.js"></script>
 <script src="js/script.js"></script>
 

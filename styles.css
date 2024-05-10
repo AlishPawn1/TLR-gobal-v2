@@ -120,6 +120,8 @@ h1, h2, h3, h4, h5, h6 {
     place-content: center;
     padding: 20px;
     margin-left: auto;
+    margin-right: -1px;
+    margin-bottom: -1px;
 }
 .arrow-btn svg{
     fill: var(--primary-color);
@@ -874,6 +876,8 @@ header .nav-item{
     }
     .cyber-war-sec .image{
         margin: 0 auto;
+        height: 150px;
+        flex: 0 0 255px;
     }
     .cyber-war-sec .image img{
         object-fit: cover;
@@ -1015,6 +1019,7 @@ header .nav-item{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
 }
 .industry-box .image{
     position: absolute;
@@ -1097,8 +1102,8 @@ header .nav-item{
 }
 .new-box .arrow-btn{
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: -1px;
+    right: -1px;
 }
 .new-box .image a{
     height: 100%;

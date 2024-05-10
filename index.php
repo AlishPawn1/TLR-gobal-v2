@@ -23,7 +23,7 @@ include("header.php"); ?>
         <div class="row">
             <div class="col-xl-9 offset-xl-3">
                 <div class="row custom-gap">
-                    <div class="col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="explore-box">
                             <h2 class="title f-s-4">Explore next gen cyber software solutions</h2>
                             <p>Quam erat nec elit diam massa non amet neque viverra. </p>
