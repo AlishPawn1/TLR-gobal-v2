@@ -777,6 +777,7 @@ header .nav-item{
 @media screen and (max-width: 1024px) {
     .hero-home-sec{
         padding: 100px 0;
+        margin: -1px 0;
     }
     .hero-home-sec .image{
         height: 182px;
@@ -882,6 +883,7 @@ header .nav-item{
 @media screen and (max-width: 1024px) {
     .cyber-war-sec{
         padding: 60px 0;
+        margin: -1px 0;
     }
     .cyber-war-sec .common-box .inner-content{
         padding: 40px;
@@ -896,6 +898,7 @@ header .nav-item{
         margin: 0 auto;
         height: 150px;
         flex: 0 0 255px;
+        overflow: hidden;
     }
     .cyber-war-sec .image img{
         object-fit: cover;
@@ -984,6 +987,7 @@ header .nav-item{
 
 .home-our-client-sec{
     padding: 120px 0;
+    margin-top: -1px;
 }
 .home-our-client-sec .main-title{
     width: 80%;
@@ -1352,9 +1356,6 @@ footer .background-image{
         object-fit: cover;
         object-position: left;
     }
-    .footer-title-list{
-        display: block;
-    }
     .footer-list.active{
         padding-bottom: 20px;
     }
@@ -1382,8 +1383,14 @@ footer .background-image{
     .footer-list{
         display: none;
     }
-    footer .col-md-7{
+    .footer-title-list{
+        display: block;
+    }
+    .footer-top .col-lg-7{
         margin-top: 32px;
+    }
+    .footer-list a{
+        font-size: 18px;
     }
 }
 
