@@ -536,7 +536,7 @@ header .nav-item{
 }
 .banner-sec .background-image{
     position: absolute;
-    top: 0;
+    top: 200px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -547,7 +547,7 @@ header .nav-item{
     /* opacity: 0.15;    */
     width: 100%;
     object-fit: cover;
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 .banner-sec .banner-content{
     position: relative;
@@ -578,6 +578,7 @@ header .nav-item{
 }
 .explore-box{
     background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(1.5px);
     color: #fff;
     padding: 24px;
     height: 100%;
