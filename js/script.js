@@ -95,15 +95,15 @@ jQuery(function ($){
         $(window).on('scroll', function() {
             let scrollPosition = $(window).scrollTop();
     
-            $('.service-inner-list').each(function() {
+            $('.sticky-inner-list').each(function() {
                 let section = $(this);
                 let sectionId = section.attr('id');
                 let sectionOffset = section.offset().top - 100;
                 let sectionHeight = section.outerHeight();
     
                 if (scrollPosition >= sectionOffset && scrollPosition < sectionOffset + sectionHeight) {
-                    $('.service-list-group a').removeClass('active');
-                    $('.service-list-group a[href="#' + sectionId + '"]').addClass('active');
+                    $('.sticky-inner-nav-list a').removeClass('active');
+                    $('.sticky-inner-nav-list a[href="#' + sectionId + '"]').addClass('active');
                 }
             });
         });

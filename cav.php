@@ -76,8 +76,8 @@ include("header.php"); ?>
 <!-- overview-sec -->
 
 <section class="overview-sec sticky-inner-list fourth-bg" id="overview-sec">
-    <div class="conteiner">
-        <div class="row">
+    <div class="container">
+        <div class="row g-5">
             <div class="col-md-6">
                 <div class="content">
                     <div class="main-title">
@@ -102,9 +102,9 @@ include("header.php"); ?>
 <section class="sticky-inner-list fourth-bg next-gen-sec">
     <div class="container">
         <div class="main-title">
-            <h2 class="title">Next gen threat detection software</h2>
+            <h2 class="title white f-s-2">Next gen threat detection software</h2>
         </div>
-        <div class="row">
+        <div class="row custom-gap">
             <div class="col-md-4">
                 <div class="next-gen-box">
                     <div class="icon">
@@ -181,44 +181,44 @@ include("header.php"); ?>
         <div class="row g-5">
             <div class="col-md-5">
                 <div class="main-title">
-                    <h2 class="title">Benefits of CAVS</h2>
+                    <h2 class="title white f-s-2">Benefits of CAVS</h2>
                 </div>
             </div>
             <div class="col-md-7">
                 <div class="row g-5">
                     <div class="col-md-6">
-                        <div class="content">
-                            <h3 class="title">Cost effective security</h3>
+                        <div class="benfit-content">
+                            <h3 class="title green f-s-4">Cost effective security</h3>
                             <p>Much more cost effective than manual pen tests. Allowing you to get more insights from your security budget.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="content">
-                            <h3 class="title">Asset Discovery</h3>
+                        <div class="benfit-content">
+                            <h3 class="title green f-s-4">Asset Discovery</h3>
                             <p>Commonly referred to as Attack Surface Management, CAVS does the heavy lifting of discovering all assets related to your organisation.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="content">
-                            <h3 class="title">Greater Confidence</h3>
+                        <div class="benfit-content">
+                            <h3 class="title green f-s-4">Greater Confidence</h3>
                             <p>Automated regular scans guarantee your infrastructure is being reviewed periodically and the process is systematic and therefore accurate.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="content">
-                            <h3 class="title">Powered Up Operators</h3>
+                        <div class="benfit-content">
+                            <h3 class="title green f-s-4">Powered Up Operators</h3>
                             <p>CAVS takes the grunt work out of pentests and scans, so the security team can focus on solving the real problems.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="content">
-                            <h3 class="title">Manage time effectively</h3>
+                        <div class="benfit-content">
+                            <h3 class="title green f-s-4">Manage time effectively</h3>
                             <p>Manage time effectively depending on your organisation's size and infrastructure.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="content">
-                            <h3 class="title">No network interruption</h3>
+                        <div class="benfit-content">
+                            <h3 class="title green f-s-4">No network interruption</h3>
                             <p>All scans automatically run in the background with no interruption to network coverage. Your business can run as usual.</p>
                         </div>
                     </div>
@@ -237,7 +237,7 @@ include("header.php"); ?>
         <div class="row g-5">
             <div class="col-md-5">
                 <div class="main-title">
-                    <h2 class="title f-s-2">Key features</h2>
+                    <h2 class="title f-s-2 black">Key features</h2>
                     <a href="#" class="pdf-file">
                         <span class="icon">
                             <svg width="18" height="25" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -318,14 +318,14 @@ include("header.php"); ?>
 
 <!-- how-it-work-sec  -->
 
-<section class="sticky-inner-list fourth-bg how-it-work-sec" id="how-it-work-sec">
+<section class="sticky-inner-list how-it-work-sec" id="how-it-work-sec">
     <div class="container">
         <div class="main-title">
-            <h2 class="title f-s-2">How it works</h2>
+            <h2 class="title f-s-2 black">How it works</h2>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="content">
+        <div class="row custom-gap how-work-row">
+            <div class="col-md-4 item">
+                <div class="how-work-content">
                     <h3 class="title">
                         <span class="icon">
                             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -337,8 +337,8 @@ include("header.php"); ?>
                     <p>The scans start with a discovery phase to identify all assets within scope, even ones you may not know about. The scan can run and be altered as often as desired depending on network size and complexity.</p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="content">
+            <div class="col-md-4 item">
+                <div class="how-work-content">
                     <h3 class="title">
                         <span class="icon">
                             <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -360,8 +360,8 @@ include("header.php"); ?>
                     <p>The CAVS platform then automatically gathers information about the target network and identifies new systems and potential weaknesses through known vulnerabilities and identification of configuration issues in systems.</p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="content">
+            <div class="col-md-4 item">
+                <div class="how-work-content">
                     <h3 class="title">
                         <span class="icon">
                             <svg width="44" height="30" viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -387,6 +387,9 @@ include("header.php"); ?>
                 </div>
             </div>
         </div>
+        <div class="background-image">
+            <img src="image/how-it-work.png" class="img-cover" alt="">
+        </div>
     </div>
 </section>
 
@@ -399,12 +402,12 @@ include("header.php"); ?>
         <div class="row g-5">
             <div class="col-md-5">
                 <div class="main-title">
-                    <h2 class="title f-s-2">Pricing</h2>
+                    <h2 class="title f-s-2 white">Pricing</h2>
                 </div>
             </div>
             <div class="col-md-7">
-                <div class="row g-4">
-                    <div class="col-md-6">
+                <ul class="pricing-list">
+                    <li>
                         <div class="pricing-box">
                             <h3 class="title">
                                 <span class="icon">
@@ -447,16 +450,28 @@ include("header.php"); ?>
                             </h3>
                             <p>Continuous analysis and detection of security issues and vulnerabilities within your organisation's network.</p>
                             <form action="" class="pricing-form">
-                                <div class="form-group">
-                                    <input type="checkbox" id="product-feature">
-                                    <label for="product-feature">Product Feature</label>
+                                <div class="pricing-option">
+                                    <div class="form-group">
+                                        <input type="checkbox" id="product-feature">
+                                        <label for="product-feature">Product Feature</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="product-feature-1">
+                                        <label for="product-feature-1">Product Feature</label>
+                                    </div>
                                 </div>
-                                <input type="submit" value="Request a demo">
-                                <span class="text-center credit-text">No credit card required</span>
+                                <div class="form-bottom">
+                                    <input type="submit" value="Request a demo">
+                                    <span class="text-center credit-text">No credit card required</span>
+                                </div>
                             </form>
+                            <div class="rating-price">
+                                <span class="price">$99</span>
+                                <span class="text">per month</span>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -471,7 +486,7 @@ include("header.php"); ?>
         <div class="row g-5">
             <div class="col-md-5">
                 <div class="main-title">
-                    <h2 class="title f-s-2">FAQ’s</h2>
+                    <h2 class="title f-s-2 white">FAQ’s</h2>
                 </div>
             </div>
             <div class="col-md-7">
@@ -567,7 +582,7 @@ include("header.php"); ?>
                     </svg>                                          
                 </div>
                 <div class="content">
-                    <h2 class="title f-s-2">Get complete protection with SETH</h2>
+                    <h2 class="title f-s-2">Get complete protection <br> with SETH</h2>
                     <p>Identify breaches in your network & infrastructure and automatically resolve them.</p>
                 </div>
             </div>
@@ -691,7 +706,7 @@ include("header.php"); ?>
         <div class="row gy-5">
             <div class="col-lg-5">
                 <div class="main-title">
-                    <h2 class="title">Related content</h2>
+                    <h2 class="title black f-s-2">Related content</h2>
                 </div>
             </div>
             <div class="col-lg-7">
