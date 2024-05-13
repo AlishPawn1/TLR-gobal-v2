@@ -86,6 +86,11 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.3px;
     text-align: center;
     font-size: 16px;
+    transition: var(--default-transition);
+}
+.btn-box:hover{
+    background-color: transparent;
+    color: var(--primary-color);
 }
 .btn-box.big{
     padding: 17px 32px;
@@ -101,6 +106,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: transparent;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+}
+.btn-box.transprance:hover{
+    background-color: var(--primary-color);
+    color: var(--fourth-color);
 }
 .btn-wrap{
     display: flex;
@@ -2017,6 +2026,10 @@ footer .background-image{
     z-index: 1;
     max-width: 765px;
 }
+.common-banner .row{
+    position: relative;
+    z-index: 1;
+}
 .common-banner .icon{
     margin-bottom: 32px;
 }
@@ -2042,6 +2055,18 @@ footer .background-image{
 }
 .common-banner .date-type{
     margin-bottom: 8px;
+}
+
+.common-banner .banner-categories-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-left: 0;
+    gap: 6px;
+    list-style: none;
+}
+.common-banner .banner-categories .title{
+    color: #fff;
 }
 
 /* common-banner */
@@ -2470,3 +2495,17 @@ blockquote{
 }
 
 /* single-no-image */
+
+/* new-insight-banner */
+
+.new-insight-banner{
+    padding: 260px 0 120px;
+}
+.new-insight-banner .background-image{
+    top: -132px;
+}
+.new-insight-banner .content{
+    width: 95%;
+}
+
+/* new-insight-banner */

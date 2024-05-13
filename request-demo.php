@@ -5,7 +5,7 @@
 <!-- common-banner -->
 
 <section class="request-form-sec common-banner fourth-bg">
-    <div class="cust-container">
+    <div class="cust-container container">
         <div class="background-image">
             <img src="image/request-banner.png" alt="">
         </div>
