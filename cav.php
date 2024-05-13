@@ -1,6 +1,5 @@
 <!------------------------------  Header section  ------------------------------>
-<?php
-include("header.php"); ?>
+<?php include("header.php"); ?>
 <!------------------------------ End  header section  ------------------------------>
 
 <!-- cav-banner -->
