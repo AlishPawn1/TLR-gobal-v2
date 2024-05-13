@@ -57,7 +57,7 @@
                         <li><a href="#">Industry solutions</a></li>
                     </ul>
                     <div class="request-btn">
-                        <a href="#" class="btn-box big">Request a demo</a>
+                        <a href="request-demo.php" class="btn-box big">Request a demo</a>
                     </div>
                 </div>
                 <div class="hamburger">

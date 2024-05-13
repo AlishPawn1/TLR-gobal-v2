@@ -162,7 +162,7 @@ include("header.php"); ?>
 
 <!-- hero-section-home -->
 
-<section class="hero-home-sec fourth-bg">
+<section class="hero-home-sec fourth-bg section-lg-gaps">
     <div class="container">
         <div class="image">
             <img src="image/hero-img.png" alt="">
@@ -317,7 +317,7 @@ include("header.php"); ?>
 
 <!-- home-service -->
 
-<section class="home-service-sec fourth-bg">
+<section class="home-service-sec fourth-bg section-lg-gaps">
     <div class="container">
         <div class="main-title">
             <h2 class="title f-s-2"><span class="inner-text">Our services</span></h2>
@@ -564,7 +564,7 @@ include("header.php"); ?>
 
 <!-- home-our-client -->
 
-<section class="home-our-client-sec fourth-bg">
+<section class="home-our-client-sec fourth-bg section-lg-gaps">
     <div class="container">
         <div class="row gy-5">
             <div class="col-lg-5">
@@ -590,7 +590,7 @@ include("header.php"); ?>
 
 <!-- industrysolutions -->
 
-<section class="home-industry-sec position-relative">
+<section class="home-industry-sec position-relative section-lg-gaps">
     <div class="container">
         <div class="background-image">
             <img src="image/top-bg-design.png" alt="">
@@ -748,7 +748,7 @@ include("header.php"); ?>
                         </div>
                     </div>
                     <div class="content">
-                        <ul class="top-news">
+                        <ul class="date-type">
                             <li>
                                 <span class="date">24 Mar 2024</span>
                             </li>
@@ -759,7 +759,7 @@ include("header.php"); ?>
                         <div class="body-news">
                             <h3 class="title f-s-4">What Does DoS Stand For and the Ways to Prevent It</h3>
                         </div>
-                        <div class="footer-news">
+                        <div class="time-bar">
                             <span class="time">4 min read</span>
                         </div>
                     </div>
@@ -787,7 +787,7 @@ include("header.php"); ?>
                         </div>
                     </div>
                     <div class="content">
-                        <ul class="top-news">
+                        <ul class="date-type">
                             <li>
                                 <span class="date">24 Mar 2024</span>
                             </li>
@@ -798,7 +798,7 @@ include("header.php"); ?>
                         <div class="body-news">
                             <h3 class="title f-s-4">What Does DoS Stand For and the Ways to Prevent It</h3>
                         </div>
-                        <div class="footer-news">
+                        <div class="time-bar">
                             <span class="time">4 min read</span>
                         </div>
                     </div>
@@ -826,7 +826,7 @@ include("header.php"); ?>
                         </div>
                     </div>
                     <div class="content">
-                        <ul class="top-news">
+                        <ul class="date-type">
                             <li>
                                 <span class="date">24 Mar 2024</span>
                             </li>
@@ -837,7 +837,7 @@ include("header.php"); ?>
                         <div class="body-news">
                             <h3 class="title f-s-4">What Does DoS Stand For and the Ways to Prevent It</h3>
                         </div>
-                        <div class="footer-news">
+                        <div class="time-bar">
                             <span class="time">4 min read</span>
                         </div>
                     </div>
@@ -869,7 +869,7 @@ include("header.php"); ?>
                                 </a>
                             </div>
                             <div class="content">
-                                <ul class="top-news">
+                                <ul class="date-type">
                                     <li>
                                         <span class="date">24 Mar 2024</span>
                                     </li>
@@ -880,7 +880,7 @@ include("header.php"); ?>
                                 <div class="body-news">
                                     <h3 class="title f-s-4"><a href="#">What Does DoS Stand For and the Ways to Prevent It</a></h3>
                                 </div>
-                                <div class="footer-news">
+                                <div class="time-bar">
                                     <span class="time">4 min read</span>
                                 </div>
                             </div>
@@ -908,7 +908,7 @@ include("header.php"); ?>
                                 </a>
                             </div>
                             <div class="content">
-                                <ul class="top-news">
+                                <ul class="date-type">
                                     <li>
                                         <span class="date">24 Mar 2024</span>
                                     </li>
@@ -919,7 +919,7 @@ include("header.php"); ?>
                                 <div class="body-news">
                                     <h3 class="title f-s-4"><a href="#">What Does DoS Stand For and the Ways to Prevent It</a></h3>
                                 </div>
-                                <div class="footer-news">
+                                <div class="time-bar">
                                     <span class="time">4 min read</span>
                                 </div>
                             </div>
@@ -947,7 +947,7 @@ include("header.php"); ?>
                                 </a>
                             </div>
                             <div class="content">
-                                <ul class="top-news">
+                                <ul class="date-type">
                                     <li>
                                         <span class="date">24 Mar 2024</span>
                                     </li>
@@ -958,7 +958,7 @@ include("header.php"); ?>
                                 <div class="body-news">
                                     <h3 class="title f-s-4"><a href="#">What Does DoS Stand For and the Ways to Prevent It</a></h3>
                                 </div>
-                                <div class="footer-news">
+                                <div class="time-bar">
                                     <span class="time">4 min read</span>
                                 </div>
                             </div>

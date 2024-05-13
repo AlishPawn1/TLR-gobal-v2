@@ -4,6 +4,11 @@
     .container{
         max-width: 1345px;
     }
+    .cust-container{
+        max-width: 975px;
+        margin: 0 auto;
+        padding: 0 12px;
+    }
     .sub-menu span.dropdown-btn{
         background-color: transparent;
     }

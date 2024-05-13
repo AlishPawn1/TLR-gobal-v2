@@ -175,7 +175,7 @@
 
 <!-- benefits-sec  -->
 
-<section class="sticky-inner-list fourth-bg benfit-sec" id="benfit-sec">
+<section class="sticky-inner-list fourth-bg benfit-sec section-lg-gaps" id="benfit-sec">
     <div class="container">
         <div class="row g-5">
             <div class="col-md-5">
@@ -231,7 +231,7 @@
 
 <!-- feature-sec  -->
 
-<section class="sticky-inner-list feature-sec" id="feature-sec">
+<section class="sticky-inner-list feature-sec section-lg-gaps" id="feature-sec">
     <div class="container">
         <div class="row g-5">
             <div class="col-md-5">
@@ -317,7 +317,7 @@
 
 <!-- how-it-work-sec  -->
 
-<section class="sticky-inner-list how-it-work-sec" id="how-it-work-sec">
+<section class="sticky-inner-list how-it-work-sec section-lg-bottom-gaps" id="how-it-work-sec">
     <div class="container">
         <div class="main-title">
             <h2 class="title f-s-2 black">How it works</h2>
@@ -480,7 +480,7 @@
 
 <!-- faq-sec -->
 
-<section class="sticky-inner-list fourth-bg faq-sec" id="faq-sec">
+<section class="sticky-inner-list fourth-bg faq-sec section-lg-gaps" id="faq-sec">
     <div class="container">
         <div class="row g-5">
             <div class="col-md-5">
@@ -700,7 +700,7 @@
 
 <!-- related-content-sec -->
 
-<section class="related-content-sec">
+<section class="related-content-sec section-lg-gaps">
     <div class="container">
         <div class="row gy-5">
             <div class="col-lg-5">
