@@ -29,6 +29,9 @@
     .main-title .title .inner-text{
         display: inline;
     }
+    .container{
+        padding: 0 10px;
+    }
 }
 @media screen and (max-width: 420px) {
 

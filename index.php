@@ -1,6 +1,5 @@
 <!------------------------------  Header section  ------------------------------>
 <?php
-$dynamicTitle = "page name";
 include("header.php"); ?>
 <!------------------------------ End  header section  ------------------------------>
 
