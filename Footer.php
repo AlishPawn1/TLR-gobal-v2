@@ -6,7 +6,7 @@
 <footer>
     <section class="cyber-attact-sec">
         <div class="container">
-            <div class="cyber-attact-box">
+            <div class="cyber-attact-box test">
                 <div class="arrow-btn">
                     <button id="button">
                         <svg width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
