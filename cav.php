@@ -6,28 +6,24 @@
 
 <section class="cav-banner primary-bg">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 d-flex align-items-center justify-content-center">
-                <div class="image">
-                    <img src="image/cav-banner.png" class="img-cover" alt="">
-                </div>
+        <div class="main-content">
+            <div class="image">
+                <img src="image/cav-banner.png" class="img-cover" alt="">
             </div>
-            <div class="col-md-6">
-                <div class="content">
-                    <div class="main-title">
-                        <h1 class="title">CAVS</h1>
-                        <h2 class="sub-title f-s-2">Continuous analysis and detection of security issues and vulnerabilities within your organisation's network.</h2>
-                        <div class="btn-wrap">
-                            <a href="#" class="btn-box transprance big">Find out more</a>
-                            <a href="#" class="pdf-file">
-                                <span class="icon">
-                                    <svg width="18" height="25" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.1094 6.40625C17.6719 6.96875 18 7.71875 18 8.51562V21.5C18 23.1875 16.6406 24.5 15 24.5H3C1.3125 24.5 0 23.1875 0 21.5V3.5C0 1.85938 1.3125 0.5 3 0.5H9.98438C10.7812 0.5 11.5312 0.828125 12.0938 1.39062L17.1094 6.40625ZM10.5 2.14062V7.25C10.5 7.67188 10.8281 8 11.25 8H16.3594C16.3125 7.8125 16.2188 7.625 16.0312 7.4375L11.0625 2.46875C10.875 2.28125 10.6875 2.1875 10.5 2.14062ZM16.5 21.5V9.5H11.25C9.98438 9.5 9 8.51562 9 7.25V2H3C2.15625 2 1.5 2.70312 1.5 3.5V21.5C1.5 22.3438 2.15625 23 3 23H15C15.7969 23 16.5 22.3438 16.5 21.5ZM9.75 11.75V17.4688L12.1875 14.9844C12.4688 14.7031 12.9844 14.7031 13.2656 14.9844C13.5469 15.2656 13.5469 15.7812 13.2656 16.0625L9.51562 19.8125C9.23438 20.0938 8.71875 20.0938 8.4375 19.8125L4.6875 16.0625C4.40625 15.7812 4.40625 15.2656 4.6875 14.9844C4.82812 14.8438 5.01562 14.75 5.25 14.75C5.4375 14.75 5.625 14.8438 5.76562 14.9844L8.25 17.4688V11.75C8.25 11.375 8.57812 11 9 11C9.375 11 9.75 11.375 9.75 11.75Z" fill="black"/>
-                                    </svg>                                        
-                                </span>
-                                <span class="text">Download CAVS factsheet (PDF)</span>
-                            </a>
-                        </div>
+            <div class="content">
+                <div class="main-title">
+                    <h1 class="title">CAVS</h1>
+                    <h2 class="sub-title f-s-2">Continuous analysis and detection of security issues and vulnerabilities within your organisation's network.</h2>
+                    <div class="btn-wrap">
+                        <a href="#" class="btn-box transprance big">Find out more</a>
+                        <a href="#" class="pdf-file" target="_blank">
+                            <span class="icon">
+                                <svg width="18" height="25" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.1094 6.40625C17.6719 6.96875 18 7.71875 18 8.51562V21.5C18 23.1875 16.6406 24.5 15 24.5H3C1.3125 24.5 0 23.1875 0 21.5V3.5C0 1.85938 1.3125 0.5 3 0.5H9.98438C10.7812 0.5 11.5312 0.828125 12.0938 1.39062L17.1094 6.40625ZM10.5 2.14062V7.25C10.5 7.67188 10.8281 8 11.25 8H16.3594C16.3125 7.8125 16.2188 7.625 16.0312 7.4375L11.0625 2.46875C10.875 2.28125 10.6875 2.1875 10.5 2.14062ZM16.5 21.5V9.5H11.25C9.98438 9.5 9 8.51562 9 7.25V2H3C2.15625 2 1.5 2.70312 1.5 3.5V21.5C1.5 22.3438 2.15625 23 3 23H15C15.7969 23 16.5 22.3438 16.5 21.5ZM9.75 11.75V17.4688L12.1875 14.9844C12.4688 14.7031 12.9844 14.7031 13.2656 14.9844C13.5469 15.2656 13.5469 15.7812 13.2656 16.0625L9.51562 19.8125C9.23438 20.0938 8.71875 20.0938 8.4375 19.8125L4.6875 16.0625C4.40625 15.7812 4.40625 15.2656 4.6875 14.9844C4.82812 14.8438 5.01562 14.75 5.25 14.75C5.4375 14.75 5.625 14.8438 5.76562 14.9844L8.25 17.4688V11.75C8.25 11.375 8.57812 11 9 11C9.375 11 9.75 11.375 9.75 11.75Z" fill="black"/>
+                                </svg>                                        
+                            </span>
+                            <span class="text">Download CAVS factsheet (PDF)</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -78,7 +74,7 @@
     <div class="container">
         <div class="row g-5">
             <div class="col-md-6">
-                <div class="content">
+                <div class="content section-lg-bottom-gaps">
                     <div class="main-title">
                         <h2 class="title f-s-4">Introducing CAVS from TLR, a bundled technology solution to enhance human operators to uncover vulnerabilities in your network.</h2>
                         <p>TLR’s proprietary Continuous Automated Vulnerability Scanning & Reporting Solution. CAVS identifies your network externally or internally, scans for vulnerabilities, and delivers your report on demand.</p>
@@ -237,7 +233,7 @@
             <div class="col-md-5">
                 <div class="main-title">
                     <h2 class="title f-s-2 black">Key features</h2>
-                    <a href="#" class="pdf-file">
+                    <a href="#" class="pdf-file" target="_blank">
                         <span class="icon">
                             <svg width="18" height="25" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M17.1094 6.40625C17.6719 6.96875 18 7.71875 18 8.51562V21.5C18 23.1875 16.6406 24.5 15 24.5H3C1.3125 24.5 0 23.1875 0 21.5V3.5C0 1.85938 1.3125 0.5 3 0.5H9.98438C10.7812 0.5 11.5312 0.828125 12.0938 1.39062L17.1094 6.40625ZM10.5 2.14062V7.25C10.5 7.67188 10.8281 8 11.25 8H16.3594C16.3125 7.8125 16.2188 7.625 16.0312 7.4375L11.0625 2.46875C10.875 2.28125 10.6875 2.1875 10.5 2.14062ZM16.5 21.5V9.5H11.25C9.98438 9.5 9 8.51562 9 7.25V2H3C2.15625 2 1.5 2.70312 1.5 3.5V21.5C1.5 22.3438 2.15625 23 3 23H15C15.7969 23 16.5 22.3438 16.5 21.5ZM9.75 11.75V17.4688L12.1875 14.9844C12.4688 14.7031 12.9844 14.7031 13.2656 14.9844C13.5469 15.2656 13.5469 15.7812 13.2656 16.0625L9.51562 19.8125C9.23438 20.0938 8.71875 20.0938 8.4375 19.8125L4.6875 16.0625C4.40625 15.7812 4.40625 15.2656 4.6875 14.9844C4.82812 14.8438 5.01562 14.75 5.25 14.75C5.4375 14.75 5.625 14.8438 5.76562 14.9844L8.25 17.4688V11.75C8.25 11.375 8.57812 11 9 11C9.375 11 9.75 11.375 9.75 11.75Z" fill="black"/>
@@ -540,7 +536,7 @@
 
 <!-- cyber-war-sec -->
 
-<section class="cyber-war-sec fourth-bg">
+<section class="cyber-war-sec non-blend fourth-bg">
     <div class="container">
         <div class="common-box">
             <div class="inner-content">
@@ -586,7 +582,7 @@
                 </div>
             </div>
             <div class="image">
-                <img src="image/overview.png" alt="">
+                <img src="image/overview-1.png" alt="">
             </div>
             <div class="arrow-btn">
                 <a href="#">
@@ -674,7 +670,7 @@
 
 <!-- home-our-client -->
 
-<section class="home-our-client-sec fourth-bg">
+<section class="home-our-client-sec fourth-bg section-lg-gaps">
     <div class="container">
         <div class="row gy-5">
             <div class="col-lg-5">
@@ -712,20 +708,12 @@
                 <ul class="related-content-link">
                     <li>
                         <a href="#">
-                            <span class="icon">
-                                <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_23_184)">
-                                    <path d="M9.24266 4.5H0.757812" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M5.60645 0.805176L9.24281 4.49991" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M9.24281 4.5L5.60645 8.19474" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_23_184">
-                                    <rect width="10" height="9" fill="white"/>
-                                    </clipPath>
-                                    </defs>
-                                    </svg>                                    
+                            <span class="text">
+                                Cloud security something link
                             </span>
+                        </a>
+                    <li>
+                        <a href="#">
                             <span class="text">
                                 Cloud security something link
                             </span>
@@ -733,41 +721,6 @@
                     </li>
                     <li>
                         <a href="#">
-                            <span class="icon">
-                                <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_23_184)">
-                                    <path d="M9.24266 4.5H0.757812" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M5.60645 0.805176L9.24281 4.49991" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M9.24281 4.5L5.60645 8.19474" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_23_184">
-                                    <rect width="10" height="9" fill="white"/>
-                                    </clipPath>
-                                    </defs>
-                                    </svg>                                    
-                            </span>
-                            <span class="text">
-                                Cloud security something link
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="icon">
-                                <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_23_184)">
-                                    <path d="M9.24266 4.5H0.757812" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M5.60645 0.805176L9.24281 4.49991" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M9.24281 4.5L5.60645 8.19474" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_23_184">
-                                    <rect width="10" height="9" fill="white"/>
-                                    </clipPath>
-                                    </defs>
-                                    </svg>                                    
-                            </span>
                             <span class="text">
                                 Cloud security something link
                             </span>
@@ -780,6 +733,61 @@
 </section>
 
 <!-- related-content-sec -->
+
+<!-- modules-sec -->
+
+<section class="modules-sec fourth-bg overflow-hidden">
+    <div class="container">
+        <div class="main-title">
+            <h2 class="title f-s-2 white">Modules</h2>
+        </div>
+        <div class="splide module-slide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="package-box">
+                            <h3 class="title">Network Pen-testing</h3>
+                            <p>Simulated testing will emulate the steps a real attacker with malicious intent, will perform to attempt to gain unauthorised access to your network. <br><br> Giving a comprehensive report on potential security weak spots within your organisation.</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="package-box">
+                            <h3 class="title">Physical Pen-testing</h3>
+                            <p>Similar to network pentesting, however we are gaining unauthorised access to an office, building, or other secure location. Employing a variety of social engineering techniques to breach your security system.<br><br> Giving a comprehensive report on security weak spots within your building management or access policies.</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="package-box">
+                            <h3 class="title">Application Pen-testing</h3>
+                            <p>Targets a single application or system, looking to discover vulnerabilities in the components or communications. This includes testing web applications through to distributed network applications. <br><br> Application pentest reports detail the potential exposure created by installing a particular package or system in your organisation’s workflow.</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="package-box">
+                            <h3 class="title">Active Directory Module</h3>
+                            <p>Attackers and malware attempt to create new administrator accounts or modify existing accounts and groups in order to take over your network. <br><br> ADM ensures Active Directory integrity with: <br><br> Privileged Group Management & Monitoring Domain User Monitoring Group Policy Monitoring</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="package-box">
+                            <h3 class="title">Critical & Sensitive File Monitoring</h3>
+                            <p>Once in your environment, attackers target critical & sensitive files. They can be exfiltrated, deleted or, in the case of ransomware attacks, encrypted. <br><br> The File Monitoring module has a proprietary method for protecting these critical files and maintaining file integrity.</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="package-box">
+                            <h3 class="title">Process Tracking & Learning</h3>
+                            <p>Malware and other malicious activities often create new processes designed to steal data or facilitate other cyber-attacks. <br><br> Process Tracking & Learning combats this by: <br><br>Tracking and learning about legitimate processes in the system Alerting on unexpected processes  Optionally allowing administrators to automatically block new processes</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- modules-sec -->
+
 
 <!------------------------------  Footer section  ------------------------------>
 <?php include("footer.php"); ?>

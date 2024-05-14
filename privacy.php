@@ -4,7 +4,7 @@
 
 <!-- common-banner -->
 
-<section class="common-banner fourth-bg">
+<section class="banner-same-padding common-banner fourth-bg">
     <div class="container cust-container">
         <div class="background-image">
             <img src="image/common-banner.png" alt="">
