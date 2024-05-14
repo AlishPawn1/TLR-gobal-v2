@@ -19,7 +19,7 @@
 
     <!-- home-service -->
 
-    <div class="home-service-sec fourth-bg section-lg-gaps position-relative">
+    <div class="home-service-sec section-lg-gaps position-relative">
         <div class="container">
             <div class="main-title">
                 <p>We support cyber professionals in delivering technical training and services. Proactively helping you become cyber secure.</p>

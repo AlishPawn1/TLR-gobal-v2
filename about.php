@@ -25,7 +25,7 @@
 
 <section class="our-team-sec section-md-gaps fourth-bg">
     <div class="container">
-        <div class="row">
+        <div class="row g-5">
             <div class="col-lg-5">
                 <div class="main-title">
                     <h2 class="title white f-s-2">Our team of industry experts</h2>

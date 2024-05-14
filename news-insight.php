@@ -22,13 +22,13 @@
                 <div class="banner-categories">
                     <h2 class="title">Categories</h2>
                     <ul class="banner-categories-list">
-                        <li><button class="btn-box big transprance active">View all</button></li>
-                        <li><button class="btn-box big transprance">Company news</button></li>
-                        <li><button class="btn-box big transprance">TLR software</button></li>
-                        <li><button class="btn-box big transprance">TLR services</button></li>
-                        <li><button class="btn-box big transprance">Industry news</button></li>
-                        <li><button class="btn-box big transprance">Research</button></li>
-                        <li><button class="btn-box big transprance">Threats</button></li>
+                        <li><button class="btn-box transprance active">View all</button></li>
+                        <li><button class="btn-box transprance">Company news</button></li>
+                        <li><button class="btn-box transprance">TLR software</button></li>
+                        <li><button class="btn-box transprance">TLR services</button></li>
+                        <li><button class="btn-box transprance">Industry news</button></li>
+                        <li><button class="btn-box transprance">Research</button></li>
+                        <li><button class="btn-box transprance">Threats</button></li>
                     </ul>
                 </div>
             </div>

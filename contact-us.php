@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="row custom-gap">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="question-banner">
                     <h2 class="title f-s-2">Have more questions?</h2>
                     <div class="btn-wrap">
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="location-box">
                     <h3 class="title f-s-4">Our locations</h3>
                     <div class="location-list">

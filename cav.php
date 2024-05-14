@@ -73,7 +73,7 @@
 <section class="overview-sec sticky-inner-list fourth-bg" id="overview-sec">
     <div class="container">
         <div class="row g-5">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="content section-lg-bottom-gaps">
                     <div class="main-title">
                         <h2 class="title f-s-4">Introducing CAVS from TLR, a bundled technology solution to enhance human operators to uncover vulnerabilities in your network.</h2>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="image">
                     <img src="image/overview.png" class="img-cover" alt="">
                 </div>
@@ -100,7 +100,7 @@
             <h2 class="title white f-s-2">Next gen threat detection software</h2>
         </div>
         <div class="row custom-gap">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="next-gen-box">
                     <div class="icon">
                         <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="next-gen-box">
                     <div class="icon">
                         <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -142,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="next-gen-box">
                     <div class="icon">
                         <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -174,12 +174,12 @@
 <section class="sticky-inner-list fourth-bg benfit-sec section-lg-gaps" id="benfit-sec">
     <div class="container">
         <div class="row g-5">
-            <div class="col-md-5">
+            <div class="col-lg-5">
                 <div class="main-title">
                     <h2 class="title white f-s-2">Benefits of CAVS</h2>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <div class="row g-5">
                     <div class="col-md-6">
                         <div class="benfit-content">
@@ -230,7 +230,7 @@
 <section class="sticky-inner-list feature-sec section-lg-gaps" id="feature-sec">
     <div class="container">
         <div class="row g-5">
-            <div class="col-md-5">
+            <div class="col-lg-5">
                 <div class="main-title">
                     <h2 class="title f-s-2 black">Key features</h2>
                     <a href="#" class="pdf-file" target="_blank">
@@ -243,7 +243,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <ul class="feature-list">
                     <li>
                         <div class="content">
@@ -319,7 +319,7 @@
             <h2 class="title f-s-2 black">How it works</h2>
         </div>
         <div class="row custom-gap how-work-row">
-            <div class="col-md-4 item">
+            <div class="col-lg-4 col-md-6 item">
                 <div class="how-work-content">
                     <h3 class="title">
                         <span class="icon">
@@ -327,12 +327,12 @@
                                 <path d="M15 0C6.72857 0 0 6.72857 0 15C0 23.2714 6.72857 30 15 30C23.2714 30 30 23.2714 30 15C30 6.72857 23.2714 0 15 0ZM15 28.5714C7.51429 28.5714 1.42857 22.4857 1.42857 15C1.42857 7.51429 7.51429 1.42857 15 1.42857C18.0643 1.42857 20.8929 2.46429 23.1643 4.18571L16.1 12.7643C15.1786 12.3071 14.0286 12.45 13.25 13.2071C12.2643 14.1714 12.2429 15.7571 13.2071 16.7429C14.1714 17.7286 15.7571 17.75 16.7429 16.7857C17.5786 15.9643 17.7143 14.7071 17.1429 13.7357L19.1857 11.25C20.1071 12.2786 20.6214 13.6071 20.6214 14.9929C20.6214 18.1 18.0929 20.6214 14.9929 20.6214C13.8929 20.6214 12.8286 20.3 11.9071 19.7L11.5143 20.3C12.55 20.9786 13.75 21.3429 14.9929 21.3429C18.4929 21.3429 21.3357 18.4929 21.3357 15C21.3357 13.4 20.7286 11.8643 19.6429 10.6929L21.6 8.32143C23.3857 10.0857 24.4 12.4786 24.4 15C24.4 20.1929 20.1786 24.4143 14.9857 24.4143C9.79286 24.4143 5.57143 20.1929 5.57143 15C5.57143 13.0286 6.17857 11.1429 7.33571 9.52857L6.75714 9.11429C5.51429 10.8429 4.85714 12.8786 4.85714 15C4.85714 20.5857 9.4 25.1286 14.9857 25.1286C20.5714 25.1286 25.1143 20.5857 25.1143 15C25.1143 12.2643 24 9.67143 22.05 7.77143L24.2429 5.10714C26.8857 7.58571 28.5571 11.1 28.5571 15C28.5571 22.4857 22.4714 28.5714 14.9857 28.5714H15Z" fill="#13DB81"/>
                             </svg>                                
                         </span>
-                        <span class="text">1.Scan</span>
+                        <span class="text" data-num="1." data-num-resp="1">Scan</span>
                     </h3>
                     <p>The scans start with a discovery phase to identify all assets within scope, even ones you may not know about. The scan can run and be altered as often as desired depending on network size and complexity.</p>
                 </div>
             </div>
-            <div class="col-md-4 item">
+            <div class="col-lg-4 col-md-6 item">
                 <div class="how-work-content">
                     <h3 class="title">
                         <span class="icon">
@@ -350,12 +350,12 @@
                                 </defs>
                             </svg>                                
                         </span>
-                        <span class="text">2.Analysis</span>
+                        <span class="text" data-num="2." data-num-resp="2">Analysis</span>
                     </h3>
                     <p>The CAVS platform then automatically gathers information about the target network and identifies new systems and potential weaknesses through known vulnerabilities and identification of configuration issues in systems.</p>
                 </div>
             </div>
-            <div class="col-md-4 item">
+            <div class="col-lg-4 col-md-6 item">
                 <div class="how-work-content">
                     <h3 class="title">
                         <span class="icon">
@@ -376,7 +376,7 @@
                                 </defs>
                             </svg>                                
                         </span>
-                        <span class="text">3.Alert</span>
+                        <span class="text" data-num="3." data-num-resp="3">Alert</span>
                     </h3>
                     <p>Detailed scan reports are then generated. Any vulnerabilities are then analysed and remediation work packages are produced, providing advice to correct the issue if possible. CAVS results can also be delivered programmatically to other security tools like a SIEM.</p>
                 </div>
@@ -388,19 +388,19 @@
     </div>
 </section>
 
-<!-- bhow-it-work-sec  -->
+<!-- how-it-work-sec  -->
 
 <!-- pricing-sec  -->
 
 <section class="sticky-inner-list fourth-bg pricing-sec" id="pricing-sec">
     <div class="container">
         <div class="row g-5">
-            <div class="col-md-5">
+            <div class="col-lg-5">
                 <div class="main-title">
                     <h2 class="title f-s-2 white">Pricing</h2>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <ul class="pricing-list">
                     <li>
                         <div class="pricing-box">
@@ -479,12 +479,12 @@
 <section class="sticky-inner-list fourth-bg faq-sec section-lg-gaps" id="faq-sec">
     <div class="container">
         <div class="row g-5">
-            <div class="col-md-5">
+            <div class="col-lg-5">
                 <div class="main-title">
                     <h2 class="title f-s-2 white">FAQ’s</h2>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <div class="faq-accordion accordion" id="accordionExample">
                     <div class="faq-item">
                         <div class="faq-title" id="headingOne" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -698,7 +698,7 @@
 
 <section class="related-content-sec section-lg-gaps">
     <div class="container">
-        <div class="row gy-5">
+        <div class="row g-4">
             <div class="col-lg-5">
                 <div class="main-title">
                     <h2 class="title black f-s-2">Related content</h2>

@@ -31,37 +31,69 @@
 
 <!-- package-sec -->
 
-<section class="package-sec fourth-bg section-lg-gaps" >
+<section class="package-sec fourth-bg section-lg-gaps overflow-hidden" >
     <div class="container">
         <div class="main-title">
             <h2 class="title">Packages</h2>
         </div>
-        <div class="row custom-gap">
-            <div class="col-lg-3 item">
+        <div class="row custom-gap d-none">
+            <div class="col-xl-3 col-md-6 item">
                 <div class="package-box">
                     <h3 class="title">Network Pen-testing</h3>
                     <p>Simulated testing will emulate the steps a real attacker with malicious intent, will perform to attempt to gain unauthorised access to your network. <br><br> Giving a comprehensive report on potential security weak spots within your organisation.</p>
                 </div>
             </div>
-            <div class="col-lg-3 item">
+            <div class="col-xl-3 col-md-6 item">
                 <div class="package-box">
                     <h3 class="title">Physical Pen-testing</h3>
                     <p>Similar to network pentesting, however we are gaining unauthorised access to an office, building, or other secure location. Employing a variety of social engineering techniques to breach your security system.<br><br> Giving a comprehensive report on security weak spots within your building management or access policies.</p>
                 </div>
             </div>
-            <div class="col-lg-3 item">
+            <div class="col-xl-3 col-md-6 item">
                 <div class="package-box">
                     <h3 class="title">Application Pen-testing</h3>
                     <p>Targets a single application or system, looking to discover vulnerabilities in the components or communications. This includes testing web applications through to distributed network applications. <br><br> Application pentest reports detail the potential exposure created by installing a particular package or system in your organisation’s workflow.</p>
                 </div>
             </div>
-            <div class="col-lg-3 item">
+            <div class="col-xl-3 col-md-6 item">
                 <div class="package-box interest-package">
                     <div class="content">
                         <h3 class="title">Interest in hearing more about out penetration testing services?</h3>
                         <a href="#" class="btn-box big transprance">Get in touch today</a>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="splide package-slide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="package-box">
+                            <h3 class="title">Network Pen-testing</h3>
+                            <p>Simulated testing will emulate the steps a real attacker with malicious intent, will perform to attempt to gain unauthorised access to your network. <br><br> Giving a comprehensive report on potential security weak spots within your organisation.</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="package-box">
+                            <h3 class="title">Physical Pen-testing</h3>
+                            <p>Similar to network pentesting, however we are gaining unauthorised access to an office, building, or other secure location. Employing a variety of social engineering techniques to breach your security system.<br><br> Giving a comprehensive report on security weak spots within your building management or access policies.</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="package-box">
+                            <h3 class="title">Application Pen-testing</h3>
+                            <p>Targets a single application or system, looking to discover vulnerabilities in the components or communications. This includes testing web applications through to distributed network applications. <br><br> Application pentest reports detail the potential exposure created by installing a particular package or system in your organisation’s workflow.</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="package-box interest-package">
+                            <div class="content">
+                                <h3 class="title">Interest in hearing more about out penetration testing services?</h3>
+                                <a href="#" class="btn-box big transprance">Get in touch today</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -74,7 +106,7 @@
 
 <section class="complete-protection-sec fourth-bg section-lg-gaps">
     <div class="container">
-        <div class="row g-5">
+        <div class="row g-md-5 gy-5">
             <div class="col-lg-5">
                 <div class="main-title">
                     <h2 class="title f-s-2">Get complete protection for your organisation <span class="inner-text">with our next gen <br> software solutions</span></h2>

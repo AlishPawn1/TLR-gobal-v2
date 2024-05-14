@@ -4,7 +4,7 @@
 
 <!-- common-banner -->
 
-<section class="artical-page common-banner fourth-bg">
+<section class="industry-page common-banner fourth-bg">
     <div class="cust-container container">
         <div class="background-image">
             <img src="image/common-banner.png" alt="">

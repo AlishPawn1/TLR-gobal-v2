@@ -10,7 +10,7 @@
             <img src="image/request-banner.png" alt="">
         </div>
         <div class="main-title">
-            <h1 class="title">Request a demo</h1>
+            <h1 class="title f-s-2">Request a demo</h1>
             <p>Learn more about the most innovative Cyber security software solutions for your business</p>
         </div>
         <div class="row g-5">

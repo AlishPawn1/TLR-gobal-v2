@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TLR gobal</title>
+    <title>TLR global</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/splide.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
