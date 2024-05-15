@@ -86,7 +86,7 @@ include("header.php");
             </div>
             <div class="col-lg-6">
                 <div class="image">
-                    <img src="image/overview.png" class="img-cover" alt="">
+                    <img src="image/overview-1.png" class="img-cover" alt="">
                 </div>
             </div>
         </div>

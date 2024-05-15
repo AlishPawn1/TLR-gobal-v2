@@ -45,7 +45,7 @@ img {
 } */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--secondary-fonts);
+    font-family: var(--primary-fonts);
     overflow-wrap: inherit;
     line-height: 1.1;
     font-weight: 800;
@@ -492,8 +492,8 @@ ul.contact-list,
 
 @media screen and (max-width: 1024px) {
     .common-banner{
-        padding-top: 200px !important;
-        padding-bottom: 80px !important;
+        padding-top: 200px;
+        padding-bottom: 80px;
     }
 }
 @media screen and (max-width: 575px) {
@@ -555,6 +555,9 @@ ul.contact-list,
     max-width: 605px;
 }
 @media screen and (max-width: 1024px) {
+    .top-level-banner{
+        padding: 200px 0 80px;
+    }
     .top-level-banner .content{
         margin-bottom: 0;
     }
@@ -584,6 +587,9 @@ ul.contact-list,
         font-size: 24px;
         line-height: 33px;
     }
+    .top-level-banner{
+        padding-top: 190px;
+    }
 }
 
 /* top-level-banner */
@@ -596,6 +602,11 @@ ul.contact-list,
 .about-banner .main-title .sub-title{
     letter-spacing: 0;
 }
+@media screen and (max-width: 1024px) {
+    .about-banner{
+        padding: 200px 0 80px;
+    }
+}
 
 /* about-banner */
 
@@ -605,6 +616,16 @@ ul.contact-list,
     padding: 260px 0 120px;
 }
 
+@media screen and (max-width: 1024px) {
+    .banner-same-padding{
+        padding: 200px 0 80px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .banner-same-padding{
+        padding: 150px 0 80px;        
+    }
+}
 /* banner-same-padding */
 
 /* banner */
@@ -674,6 +695,7 @@ header.header-change .request-btn .btn-box{
 }
 .hamburger{
     display: none;
+    cursor: pointer;
 }
 .sub-menu{
     display: none;
@@ -1242,6 +1264,9 @@ header.header-change .request-btn .btn-box{
     display: flex;
     align-items: center;
 }
+.cyber-war-sec:not(.non-blend) .image{
+    width: 100%;
+}
 .cyber-war-sec .image img{
     mix-blend-mode: luminosity;
     /* height: 200px; */
@@ -1275,6 +1300,10 @@ header.header-change .request-btn .btn-box{
         padding: 40px;
         padding-bottom: 0;
         align-items: start;
+        max-width: unset;
+    }
+    .cyber-war-sec .common-box .inner-content .title br{
+        display: none;
     }
     .cyber-war-sec .common-box{
         flex-direction: column;
@@ -1299,6 +1328,9 @@ header.header-change .request-btn .btn-box{
     .cyber-war-sec .common-box .inner-content{
         gap: 23px;
     }
+    .cyber-war-sec:not(.non-blend) .common-box{
+        gap:0;
+    }
 }
 @media screen and (max-width: 575px) {
     .cyber-war-sec .common-box .inner-content{
@@ -1313,6 +1345,10 @@ header.header-change .request-btn .btn-box{
         flex-direction: column;
         overflow: hidden;
     }
+    .cyber-war-sec:not(.non-blend) .image{
+        margin: 0;
+    }
+
 }
 
 /* cyber-war-sec */
@@ -1870,7 +1906,8 @@ footer .background-image{
     position: sticky;
     top: -1px;
     z-index: 5;
-    box-shadow: 0 2px 2px -1px ;
+    /* box-shadow: 0 2px 2px -1px ; */
+    margin-bottom: -1px;
 }
 .sticky-inner-nav nav{
     display: flex;
@@ -1904,7 +1941,9 @@ footer .background-image{
     background-color: var(--primary-color);
 }
 @media screen and (max-width: 1024px) {
-    
+    .sticky-inner-nav-list a:not(.active)::before{
+        height: 0;
+    }
 }
 @media screen and (max-width: 991px) {
     .sticky-inner-nav-list{
@@ -1963,6 +2002,10 @@ footer .background-image{
 .overview-sec .image{
     height: 375px;
     width: 100%;
+    background-color: var(--primary-color);
+}
+.overview-sec .image img{
+    object-fit: contain;
 }
 @media screen and (max-width: 1024px) {
     
@@ -1973,7 +2016,7 @@ footer .background-image{
     }
 }
 @media screen and (max-width: 575px) {
-    
+
 }
 
 /* overview-sec */
@@ -2094,7 +2137,9 @@ footer .background-image{
     
 }
 @media screen and (max-width: 991px) {
-    
+    .feature-sec{
+        padding: 80px 0;
+    }
 }
 @media screen and (max-width: 575px) {
     
@@ -2587,6 +2632,9 @@ footer .background-image{
 
 /* our-team-sec */
 
+.our-team-sec{
+    margin-bottom: -1px;
+}
 .team-box .title{
     color: var(--primary-color);
 }
@@ -2631,6 +2679,9 @@ footer .background-image{
 
 /* founder-sec */
 
+.founder-sec{
+    margin-bottom: -1px;
+}
 .founder-box{
     display: flex;
     gap: 40px;
@@ -2863,7 +2914,7 @@ footer .background-image{
 /* industry-page */
 
 .industry-page.common-banner{
-    padding-bottom: 0 !important;
+    padding-bottom: 0;
     padding-top: 260px;
 }
 .industry-page .content{
@@ -2904,7 +2955,8 @@ footer .background-image{
         content: none;
     }
     .industry-page.common-banner{
-        padding-top: 150px !important;
+        padding-top: 150px;
+        padding-bottom: 0;
     }
 }
 @media screen and (max-width: 991px) {
@@ -2914,15 +2966,17 @@ footer .background-image{
         width: 100%;
     }
     .industry-page.common-banner{
-        padding-bottom: 80px !important;
+        padding-bottom: 80px;
     }
     .industry-page .background-image{
         top: 0;
-        right: 0;
     }
 }
 @media screen and (max-width: 575px) {
-    
+    .industry-page .background-image{
+        right: -137px;
+        left: -102px;
+    }
 }
 
 /* industry-page */
@@ -3080,7 +3134,7 @@ blockquote{
 }
 @media screen and (max-width: 991px) {
     .single-no-image{
-        padding: 150px 0 120px !important;
+        padding: 150px 0 120px;
     }
 }
 @media screen and (max-width: 575px) {
@@ -3110,7 +3164,15 @@ blockquote{
     
 }
 @media screen and (max-width: 991px) {
-    
+    .new-insight-banner{
+        padding: 150px 0 60px;
+    }
+    .new-insight-banner .background-image{
+        top: 0;
+    }
+    .news-insight-list{
+        padding-bottom: 120px;
+    }
 }
 @media screen and (max-width: 575px) {
     
@@ -3180,7 +3242,9 @@ blockquote{
     
 }
 @media screen and (max-width: 991px) {
-    
+    .error-page-content{
+        padding: 80px 0;
+    }
 }
 @media screen and (max-width: 575px) {
     
@@ -3198,7 +3262,7 @@ blockquote{
 }
 .contact-banner .question-banner{
     background-color: #fff;
-    padding: 32px 32px 38px;
+    padding: 32px 32px 39px;
 }
 .contact-banner .question-banner .title{
     margin-bottom: 24px;
@@ -3242,9 +3306,15 @@ blockquote{
     .contact-banner .location-box .title{
         margin-bottom: 14px;
     }
+    .contact-banner .question-banner .title{
+        font-size: 32px;
+        line-height: 41px;
+    }
 }
 @media screen and (max-width: 991px) {
-    
+    .contact-banner .question-banner{
+        padding: 32px;
+    }
 }
 @media screen and (max-width: 575px) {
     .contact-banner .location-list{

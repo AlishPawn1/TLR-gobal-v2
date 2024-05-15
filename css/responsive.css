@@ -19,7 +19,11 @@
     }
 }
 @media screen and (max-width: 1024px) {
-    
+    .btn-box.transprance:hover{
+        background-color: transparent;
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+    }
 }
 
 @media screen and (max-width: 991px) {
