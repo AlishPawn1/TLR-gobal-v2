@@ -1,5 +1,8 @@
 <!------------------------------  Header section  ------------------------------>
-<?php include("header.php"); ?>
+<?php 
+$header_class = "header-change";
+include("header.php"); 
+?>
 <!------------------------------ End  header section  ------------------------------>
 
 <!-- cav-banner -->

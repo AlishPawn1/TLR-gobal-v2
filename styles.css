@@ -644,6 +644,19 @@ header .nav-item{
     display: flex;
     gap: 32px;
 }
+header.header-change .logo .logo-white{
+    display: none;
+}
+header:not(.header-change) .logo .logo-black{
+    display: none;
+}
+header.header-change a {
+    color: var(--fourth-color);
+}
+header.header-change .request-btn .btn-box{
+    background-color: var(--fourth-color);
+    color: var(--primary-color);
+}
 .primary-menu{
     display: flex;
     align-items: center;
@@ -657,6 +670,7 @@ header .nav-item{
     color: #fff;
     text-transform: capitalize;
     padding: 18px 0;
+    font-weight: 600;
 }
 .hamburger{
     display: none;
@@ -812,6 +826,12 @@ header .nav-item{
         place-content: center;
         background-color: var(--primary-color);
     }
+    header.header-change .hamburger .icon{
+        background-color: var(--fourth-color);
+    }
+    header.header-change .hamburger .icon path{
+        fill: var(--primary-color);
+    }
     .top-header-list{
         display: none;
     }
@@ -838,15 +858,14 @@ header .nav-item{
         width: auto;
     }
     .nav-item.active{
-        min-width: 300px;
-        max-width: 300px;
+        min-width: 320px;
+        max-width: 350px;
         opacity: 1;
         visibility: visible;
     }
     .primary-menu a{
         color: var(--fourth-color);
         width: 100%;
-        font-weight: 600;
     }
     .primary-menu {
         flex-direction: column;
@@ -861,7 +880,7 @@ header .nav-item{
     .request-btn{
         order: 1;
     }
-    .request-btn .btn-box{
+    .nav-item .request-btn .btn-box{
         width: 100%;
         margin-top: 20px;
     }
@@ -949,7 +968,7 @@ header .nav-item{
     .nav-item .top-header-list a{
         color: var(--fourth-color);
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 400;
     }
     .sub-menu li:not(.menu-dropdown)::before{
         content: '';
@@ -965,6 +984,10 @@ header .nav-item{
         left: 0;
         top: 50%;
         transform: translateY(-50%);
+    }
+    header.header-change .request-btn .btn-box{
+        background-color: var(--primary-color);
+        color: var(--fourth-color);
     }
 }
 @media screen and (max-width: 991px) {
@@ -1846,7 +1869,7 @@ footer .background-image{
 .sticky-inner-nav {
     position: sticky;
     top: -1px;
-    z-index: 9;
+    z-index: 5;
     box-shadow: 0 2px 2px -1px ;
 }
 .sticky-inner-nav nav{
