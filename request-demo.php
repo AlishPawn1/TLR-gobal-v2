@@ -50,7 +50,7 @@
                         <input type="tel" class="form-input" id="mobile">
                     </div>
                     <div class="text-end">
-                        <input type="submit" value="submit" class="btn-box big">
+                        <input type="submit" value="Submit" class="btn-box big">
                     </div>
                 </form>
             </div>

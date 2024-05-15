@@ -39,7 +39,7 @@
                     <p>“This is a pull out quote style lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque fames consectetur lacinia urna purus. Diam elit orci nibh et dui at nibh. <br> Amet non ullamcorper eu et.”</p>
                 </blockquote>
                 <div class="middle-paragraph">
-                    <h3 class="title">Header style</h3>
+                    <h3 class="title f-s-4">Header style</h3>
                     <p>Augue quam elit purus sed congue enim quam. Pretium donec tincidunt lectus in. Donec orci amet massa facilisis nulla eget scelerisque. Arcu accumsan viverra scelerisque in quis.</p>
                     <ul>
                         <li>This is a bullet list style</li>

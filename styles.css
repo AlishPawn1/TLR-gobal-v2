@@ -176,7 +176,7 @@ input{
 .custom-gap > *{
     padding-left: 1px !important;
     padding-right: 1px !important;
-    margin-top: 2px !important;
+    margin-top: 2.5px !important;
 }
 
 /* custom-gap */
@@ -340,12 +340,17 @@ ul.contact-list,
 .breadcrumb li{
     position: relative;
 }
-.breadcrumb li + li::before{
+/* .breadcrumb li + li::before{
     content: '/';
     padding-right: 5px;
     margin-left: 5px;
     color: #E8E8E8;
-
+} */
+.breadcrumb li:not(:last-child)::after{
+    content: '/';
+    padding-right: 5px;
+    margin-left: 5px;
+    color: #E8E8E8;   
 }
 .breadcrumb a{
     font-size: 14px;
@@ -487,7 +492,7 @@ ul.contact-list,
 
 @media screen and (max-width: 1024px) {
     .common-banner{
-        padding-top: 150px !important;
+        padding-top: 200px !important;
         padding-bottom: 80px !important;
     }
 }
@@ -555,6 +560,29 @@ ul.contact-list,
     }
     .top-level-banner .content p{
         margin-bottom: 0;
+    }
+    .top-level-banner .home-industry-sec{
+        padding: 0;
+    }
+    .top-level-banner .home-service-sec{
+        padding-bottom: 0;
+    }
+    .top-level-banner .complete-protection-sec{
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .top-level-banner .home-industry-sec .main-title p{
+        display: none;
+    }
+    .top-level-banner .content{
+        padding-bottom: 80px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .top-level-banner .content p{
+        font-size: 24px;
+        line-height: 33px;
     }
 }
 
@@ -1207,6 +1235,9 @@ header .nav-item{
     margin-bottom: 0;
     letter-spacing: 0.2px;
 }
+.cyber-war-sec.non-blend .inner-content p{
+    letter-spacing: 0.5px;
+}
 .cyber-war-sec .common-box .title{
     margin-top: 0;
 }
@@ -1348,6 +1379,11 @@ header .nav-item{
 }
 @media screen and (max-width: 1024px) {
 
+}
+@media screen and (max-width: 991px) {
+    .home-our-client-sec .main-title{
+        width: 100%;
+    }
 }
 
 /* home-our-client-sec */
@@ -2347,7 +2383,9 @@ footer .background-image{
     
 }
 @media screen and (max-width: 575px) {
-    
+    .faq-accordion .faq-body{
+        padding-top: 8px;
+    }
 }
 
 /* faq-sec */
@@ -2458,7 +2496,7 @@ footer .background-image{
         line-height: 28px;
     }
     .package-slide .splide__list{
-        padding-right: 30px !important;
+        padding-right: 70px !important;
     }
 }
 
@@ -2477,10 +2515,7 @@ footer .background-image{
     margin-bottom: -1px;
 }
 @media screen and (max-width: 1024px) {
-    .complete-protection-sec .main-title .title{
-        font-size: 30px;
-        line-height: 42px;
-    }
+
 }
 @media screen and (max-width: 991px) {
     
@@ -2845,6 +2880,9 @@ footer .background-image{
     .industry-page .content::before{
         content: none;
     }
+    .industry-page.common-banner{
+        padding-top: 150px !important;
+    }
 }
 @media screen and (max-width: 991px) {
     .industry-page .content{
@@ -2854,6 +2892,10 @@ footer .background-image{
     }
     .industry-page.common-banner{
         padding-bottom: 80px !important;
+    }
+    .industry-page .background-image{
+        top: 0;
+        right: 0;
     }
 }
 @media screen and (max-width: 575px) {
@@ -2897,6 +2939,11 @@ blockquote{
 }
 .middle-paragraph{
     padding-bottom: 40px;
+}
+.middle-paragraph .title{
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
 }
 .single-content ul {
     list-style: none;
@@ -2982,7 +3029,7 @@ blockquote{
 @media screen and (max-width: 991px) {
     .single-content-info{
         flex-direction: column;
-        gap: 50px;
+        gap: 120px;
     }
 }
 @media screen and (max-width: 575px) {
@@ -3002,14 +3049,22 @@ blockquote{
 .single-no-image .breadcrumb{
     margin-bottom: 32px;
 }
+.single-no-image .main-title .title{
+    margin-bottom: 8px;
+}
 @media screen and (max-width: 1024px) {
     
 }
 @media screen and (max-width: 991px) {
-    
+    .single-no-image{
+        padding: 150px 0 120px !important;
+    }
 }
 @media screen and (max-width: 575px) {
-    
+    .single-no-image p{
+        font-size: 24px;
+        line-height: 33px;
+    }
 }
 
 /* single-no-image */

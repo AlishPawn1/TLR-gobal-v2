@@ -21,7 +21,7 @@
 
     <div class="home-industry-sec position-relative section-lg-gaps">
         <div class="container">
-            <div class="row gy-5">
+            <div class="row gy-lg-5">
                 <div class="col-lg-5">
                     <div class="main-title">
                         <p>Quam erat nec elit diam massa non amet neque viverra. Sapien amet eget sodales ultrices elementum semitae eleifend pretium massa.</p>
