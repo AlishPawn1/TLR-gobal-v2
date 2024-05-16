@@ -76,6 +76,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
+/* global */
+
 /* btn */
 
 .btn-box{
@@ -121,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: end;
 }
-.arrow-btn a{
+.arrow-btn .arrow-icon{
     --size: 60px;
     height: var(--size);
     width: var(--size);
@@ -151,11 +153,6 @@ p, span, li{
     font-family: var(--primary-fonts);
 }
 
-/* a:hover {
-    color: var(--primary-color);
-    text-decoration: none;
-} */
-
 a, input[type="submit"], button {
     cursor: pointer;
     -webkit-transition: var(--default-transition);
@@ -184,13 +181,8 @@ input{
 
 .social-links ul,
 .sub-menu,
-ul.contact-list,
 .social-link-list,
-.single-test-sty ul,
-.site-footer ul,
-.copyright-sec ul,
-.primary-menu,
-.list-none {
+.primary-menu {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -220,7 +212,6 @@ ul.contact-list,
     line-height: 25px;
     letter-spacing: 0.5px;
 }
-
 .more-less-div{
     margin-top: 24px;
     text-align: end;
@@ -503,6 +494,10 @@ ul.contact-list,
     }
     .common-banner .background-image{
         right: -75px;
+        left: -134px;
+    }
+    .common-banner .background-image img{
+        height: 380px;
     }
 }
 /* common-banner */
@@ -517,9 +512,10 @@ ul.contact-list,
     justify-content: space-between;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
-.common-box .title{
-    margin-top: 5px;
+.common-box .icon{
+    margin-bottom: 8px;
 }
 .common-box .inner-content{
     padding: 24px;
@@ -541,6 +537,15 @@ ul.contact-list,
 /* common-box */
 
 /* common */
+
+
+
+/* global */
+
+
+
+
+
 
 /* banner */
 
@@ -580,6 +585,12 @@ ul.contact-list,
     }
     .top-level-banner .content{
         padding-bottom: 80px;
+    }
+    .top-level-banner .common-box .content{
+        padding-bottom: 0;
+    }
+    .top-level-banner .complete-protection-sec .main-title{
+        margin-bottom: 80px;
     }
 }
 @media screen and (max-width: 575px) {
@@ -1069,6 +1080,7 @@ header.header-change .request-btn .btn-box{
     font-size: 64px;
     line-height: 83px;
     letter-spacing: 0.2px;
+    margin-bottom: 16px;
 }
 .banner-sec .main-title p{
     color: #fff;
@@ -1108,8 +1120,8 @@ header.header-change .request-btn .btn-box{
 
 @media screen and (max-width: 1024px) {
     .banner-sec .common-box{
-        max-height: 400px;
-        min-height: 370px;
+        /* max-height: 400px;
+        min-height: 370px; */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1126,6 +1138,7 @@ header.header-change .request-btn .btn-box{
     .banner-sec .main-title .title{
         font-size: 48px;
         line-height: 52px;
+        margin-bottom: 24px;
     }
     .banner-sec .main-title p{
         font-size: 32px;
@@ -1138,6 +1151,12 @@ header.header-change .request-btn .btn-box{
     .explore-box{
         min-height: 232px;
         backdrop-filter: unset;
+    }
+    .banner-sec .background-image{
+        top: 140px;
+    }
+    .banner-sec .background-image img{
+        height: 394px;
     }
 }
 
@@ -1159,6 +1178,7 @@ header.header-change .request-btn .btn-box{
     font-size: 16px;
     color: #fff;
     margin-bottom: 30px;
+    letter-spacing: 0.2px;
 }
 .hero-home-sec .content{
     max-width: 875px;
@@ -1226,6 +1246,7 @@ header.header-change .request-btn .btn-box{
 }
 .security-box p{
     margin-bottom: 0;
+    letter-spacing: 0.5px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1288,6 +1309,10 @@ header.header-change .request-btn .btn-box{
 }
 .cyber-war-sec .common-box .title{
     margin-top: 0;
+    letter-spacing: 0.2px;
+}
+.cyber-war-sec.non-blend .common-box .title{
+    letter-spacing: 0.5px;
 }
 
 
@@ -1319,11 +1344,14 @@ header.header-change .request-btn .btn-box{
     .cyber-war-sec .image{
         margin: 0 auto;
         height: 150px;
-        flex: 0 0 255px;
+        flex: 0 0 300px;
         overflow: hidden;
     }
     .cyber-war-sec .image img{
         object-fit: cover;
+    }
+    .cyber-war-sec:not(.non-blend) .image img{
+        transform: scale(1.2);
     }
     .cyber-war-sec .common-box .inner-content{
         gap: 23px;
@@ -1338,8 +1366,13 @@ header.header-change .request-btn .btn-box{
         padding-top: 24px;
     }
     .cyber-war-sec.non-blend .common-box .inner-content{
-        padding: 20px;
-        padding-top: 40px;
+        padding: 40px 20px 0;
+    }
+    .cyber-war-sec.non-blend .common-box .image{
+        padding: 0 20px;
+    }
+    .cyber-war-sec.non-blend .image img{
+        object-fit: contain;
     }
     .cyber-war-sec .common-box .inner-content, .cyber-war-sec .common-box{
         flex-direction: column;
@@ -1364,6 +1397,7 @@ header.header-change .request-btn .btn-box{
     margin-bottom: 0;
     font-size: 24px;
     line-height: 33px;
+    letter-spacing: 0.2px;
 }
 .home-service-sec .common-box .inner-content{
     padding: 32px;
@@ -1374,6 +1408,9 @@ header.header-change .request-btn .btn-box{
 }
 .home-service-sec .common-box .title{
     margin-top: 16px;
+}
+.home-service-sec .common-box p{
+    letter-spacing: 0.5px;
 }
 @media screen and (max-width: 1024px) {
     .home-service-sec{
@@ -1428,7 +1465,7 @@ header.header-change .request-btn .btn-box{
     font-size: 24px;
     line-height: 38px;
     margin-bottom: 24px;
-    letter-spacing: 0.5px;
+    /* letter-spacing: 0.5px; */
 }
 .home-client-box .client-detail span{
     font-size: 16px;
@@ -1501,7 +1538,7 @@ header.header-change .request-btn .btn-box{
     padding: 32px;
     margin-bottom: 0;
 }
-.industry-box .arrow-btn a{
+.industry-box .arrow-btn .arrow-icon{
     background-color: var(--primary-color);
 }
 .industry-box .title{
@@ -1526,6 +1563,9 @@ header.header-change .request-btn .btn-box{
     .industry-box .title {
         font-size: 32px;
     }   
+    .home-industry-sec .background-image{
+        height: 300px;
+    }
 }
 
 /* home-industry-sec */
@@ -1548,8 +1588,12 @@ header.header-change .request-btn .btn-box{
 .new-box .image{
     position: relative;
     height: 300px;
+    overflow: hidden;
 }
-.new-box .image svg{
+.new-box .arrow-btn .arrow-icon{
+    background-color: #fff;
+}
+/* .new-box .image svg{
     background-color: #fff;
     --size: 60px;
     height: var(--size);
@@ -1558,7 +1602,7 @@ header.header-change .request-btn .btn-box{
     place-content: center;
     padding: 20px;
     margin-left: auto;
-}
+} */
 .new-box .arrow-btn{
     position: absolute;
     bottom: -1px;
@@ -1799,6 +1843,7 @@ footer .background-image{
         flex-direction: column-reverse;
         align-items: start;
         gap: 32px;
+        padding-bottom: 16px;
     }
     .footer-list{
         display: none;
@@ -1813,7 +1858,7 @@ footer .background-image{
         font-size: 18px;
     }
     footer .background-image {
-        top: 38%;
+        top: 39%;
         left: -106px;
     }
     .footer-logo{
@@ -1889,12 +1934,18 @@ footer .background-image{
     }
 }
 @media screen and (max-width: 575px) {
+    .cav-banner{
+        padding: 110px 0 40px;
+    }
     .cav-banner .btn-box.transprance{
         width: 100%;
     }
     .cav-banner .btn-wrap{
         justify-content: center;
         gap: 0;
+    }
+    .cav-banner .main-content{
+        gap: 40px;
     }
 }
 
@@ -1974,6 +2025,9 @@ footer .background-image{
     position: relative;
     z-index: 1;
 }
+.sticky-inner-list .main-title .title{
+    letter-spacing: 0.5px;
+}
 
 @media screen and (max-width: 1024px) {
 
@@ -1997,6 +2051,7 @@ footer .background-image{
     font-size: 24px;
     line-height: 33px;
     color: #fff;
+    letter-spacing: 0.5px;
     margin-bottom: 0;
 }
 .overview-sec .image{
@@ -2460,6 +2515,9 @@ footer .background-image{
 
 /* related-content-sec */
 
+.related-content-sec .main-title .title{
+    letter-spacing: 0.5px;
+}
 .related-content-link{
     padding-left: 0;
     margin-top: 25px;
@@ -2598,6 +2656,7 @@ footer .background-image{
 
 .explore-other-service-sec{
     padding: 60px 0 120px;
+    margin-bottom: -1px;
 }
 .explore-other-service-sec .main-title{
     margin-bottom: 80px;
@@ -2621,6 +2680,9 @@ footer .background-image{
     
 }
 @media screen and (max-width: 575px) {
+    .explore-other-service-sec{
+        padding: 80px 0;
+    }
     .explore-other-service-sec .main-title p{
         font-size: 18px;
         line-height: 28px;
@@ -2635,8 +2697,14 @@ footer .background-image{
 .our-team-sec{
     margin-bottom: -1px;
 }
+.our-team-sec .main-title .title{
+    letter-spacing: 0.5px;
+}
 .team-box .title{
     color: var(--primary-color);
+    letter-spacing: 0.3px;
+    font-size: 24px;
+    line-height: 34px;
 }
 .team-box .post{
     color: #fff;
@@ -2681,6 +2749,9 @@ footer .background-image{
 
 .founder-sec{
     margin-bottom: -1px;
+}
+.founder-sec .main-title .title{
+    letter-spacing: 0.5px;
 }
 .founder-box{
     display: flex;
@@ -2894,6 +2965,9 @@ footer .background-image{
 .modules-sec .main-title{
     margin-bottom: 80px;
 }
+.modules-sec .main-title .title{
+    letter-spacing: 0.5px;
+}
 .module-slide .splide__track{
     overflow: visible;
 }
@@ -2926,6 +3000,8 @@ footer .background-image{
 }
 .industry-page.common-banner p{
     margin-bottom: 0;
+    font-size: 24px;
+    line-height: 33px;
 }
 .industry-page .content::before{
     content: '';
@@ -2938,7 +3014,7 @@ footer .background-image{
 }
 .industry-page .content .image{
     --size: 370px;
-    max-height: var(--size);
+    height: var(--size);
     max-width: var(--size);
     background-color: var(--primary-color);
     flex: 0 0 var(--size);
@@ -3310,6 +3386,9 @@ blockquote{
         font-size: 32px;
         line-height: 41px;
     }
+    .contact-banner{
+        padding-top: 200px;
+    }
 }
 @media screen and (max-width: 991px) {
     .contact-banner .question-banner{
@@ -3324,6 +3403,9 @@ blockquote{
         padding-left: 0px;
         margin-left: 0px; 
         border: none;
+    }
+    .contact-banner{
+        padding-top: 150px;
     }
 }
 

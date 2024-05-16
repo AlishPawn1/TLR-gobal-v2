@@ -38,7 +38,7 @@
                                     <h3 class="title f-s-3">Government</h3>
                                 </div>
                                 <div class="arrow-btn">
-                                    <a href="#">
+                                    <span class="arrow-icon">
                                         <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_7_113)">
                                             <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -51,7 +51,7 @@
                                             </clipPath>
                                             </defs>
                                         </svg>
-                                    </a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
                                     <h3 class="title f-s-3">Critical infrastructure</h3>
                                 </div>
                                 <div class="arrow-btn">
-                                    <a href="#">
+                                    <a href="#" class="arrow-icon">
                                         <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_7_113)">
                                             <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -90,7 +90,7 @@
                                     <h3 class="title f-s-3">SME Business</h3>
                                 </div>
                                 <div class="arrow-btn">
-                                    <a href="#">
+                                    <a href="#" class="arrow-icon">
                                         <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_7_113)">
                                             <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -116,7 +116,7 @@
                                     <h3 class="title f-s-3">Education</h3>
                                 </div>
                                 <div class="arrow-btn">
-                                    <a href="#">
+                                    <a href="#" class="arrow-icon">
                                         <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_7_113)">
                                             <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>

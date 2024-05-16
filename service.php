@@ -160,7 +160,7 @@
                                 </div>
                             </div>
                             <div class="arrow-btn">
-                                <a href="#">
+                                <a href="#" class="arrow-icon">
                                     <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_497)">
                                         <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -222,7 +222,7 @@
                                 </div>
                             </div>
                             <div class="arrow-btn">
-                                <a href="#">
+                                <a href="#" class="arrow-icon">
                                     <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_497)">
                                         <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -270,7 +270,7 @@
                         </div>
                     </div>
                     <div class="arrow-btn">
-                        <a href="#">
+                        <a href="#" class="arrow-icon">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_497)">
                                 <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -301,7 +301,7 @@
                         </div>
                     </div>
                     <div class="arrow-btn">
-                        <a href="#">
+                        <a href="#" class="arrow-icon">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_497)">
                                 <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -340,7 +340,7 @@
                         </div>
                     </div>
                     <div class="arrow-btn">
-                        <a href="#">
+                        <a href="#" class="arrow-icon">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_497)">
                                 <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -378,7 +378,7 @@
                         </div>
                     </div>
                     <div class="arrow-btn">
-                        <a href="#">
+                        <a href="#" class="arrow-icon">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_497)">
                                 <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>

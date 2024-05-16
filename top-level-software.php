@@ -21,7 +21,7 @@
 
     <div class="complete-protection-sec fourth-bg section-lg-gaps">
         <div class="container">
-            <div class="row g-5">
+            <div class="row g-lg-5">
                 <div class="col-lg-5">
                     <div class="main-title">
                         <h2 class="title f-s-2">Get complete protection for your organisation <span class="inner-text">with our next gen <br> software solutions</span></h2>
@@ -70,12 +70,12 @@
                                         </svg>                                    
                                     </div>
                                     <div class="content">
-                                        <h3 class="title f-s-3">CAVS</h3>
+                                        <h3 class="title f-s-2">CAVS</h3>
                                         <p>Continuous analysis and detection of security issues and vulnerabilities within your organisation's network.</p>
                                     </div>
                                 </div>
                                 <div class="arrow-btn">
-                                    <a href="#">
+                                    <a href="#" class="arrow-icon">
                                         <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_1_497)">
                                             <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -132,12 +132,12 @@
                                         </svg>                                    
                                     </div>
                                     <div class="content">
-                                        <h3 class="title f-s-3">SETH</h3>
+                                        <h3 class="title f-s-2">SETH</h3>
                                         <p>Identify breaches in your network & infrastructure and automatically resolve them.</p>
                                     </div>
                                 </div>
                                 <div class="arrow-btn">
-                                    <a href="#">
+                                    <a href="#" class="arrow-icon">
                                         <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_1_497)">
                                             <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>

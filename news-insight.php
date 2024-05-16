@@ -49,18 +49,20 @@
                         <a href="#">
                             <img src="image/news.png" class="img-cover" alt="">
                             <div class="arrow-btn">
-                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_7_113)">
-                                    <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_7_113">
-                                    <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
+                                <span class="arrow-icon">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7_113)">
+                                        <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_7_113">
+                                        <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
                             </div>
                         </a>
                     </div>
@@ -88,18 +90,20 @@
                         <a href="#">
                             <img src="image/news.png" class="img-cover" alt="">
                             <div class="arrow-btn">
-                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_7_113)">
-                                    <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_7_113">
-                                    <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
+                                <span class="arrow-icon">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7_113)">
+                                        <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_7_113">
+                                        <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
                             </div>
                         </a>
                     </div>
@@ -127,18 +131,20 @@
                         <a href="#">
                             <img src="image/news.png" class="img-cover" alt="">
                             <div class="arrow-btn">
-                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_7_113)">
-                                    <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_7_113">
-                                    <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
+                                <span class="arrow-icon">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7_113)">
+                                        <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_7_113">
+                                        <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
                             </div>
                         </a>
                     </div>
@@ -166,18 +172,20 @@
                         <a href="#">
                             <img src="image/news.png" class="img-cover" alt="">
                             <div class="arrow-btn">
-                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_7_113)">
-                                    <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_7_113">
-                                    <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
+                                <span class="arrow-icon">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7_113)">
+                                        <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_7_113">
+                                        <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
                             </div>
                         </a>
                     </div>
@@ -205,18 +213,20 @@
                         <a href="#">
                             <img src="image/news.png" class="img-cover" alt="">
                             <div class="arrow-btn">
-                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_7_113)">
-                                    <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_7_113">
-                                    <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
+                                <span class="arrow-icon">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7_113)">
+                                        <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_7_113">
+                                        <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
                             </div>
                         </a>
                     </div>
@@ -244,18 +254,20 @@
                         <a href="#">
                             <img src="image/news.png" class="img-cover" alt="">
                             <div class="arrow-btn">
-                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_7_113)">
-                                    <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_7_113">
-                                    <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
+                                <span class="arrow-icon">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7_113)">
+                                        <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_7_113">
+                                        <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
                             </div>
                         </a>
                     </div>

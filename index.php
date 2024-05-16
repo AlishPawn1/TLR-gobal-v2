@@ -68,12 +68,12 @@ include("header.php"); ?>
                                     </svg>                                    
                                 </div>
                                 <div class="content">
-                                    <h3 class="title f-s-3">CAVS</h3>
+                                    <h3 class="title f-s-2">CAVS</h3>
                                     <p>Continuous analysis and detection of security issues and vulnerabilities within your organisation's network.</p>
                                 </div>
                             </div>
                             <div class="arrow-btn">
-                                <a href="#">
+                                <a href="#" class="arrow-icon">
                                     <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_497)">
                                         <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -130,12 +130,12 @@ include("header.php"); ?>
                                     </svg>                                    
                                 </div>
                                 <div class="content">
-                                    <h3 class="title f-s-3">SETH</h3>
+                                    <h3 class="title f-s-2">SETH</h3>
                                     <p>Identify breaches in your network & infrastructure and automatically resolve them.</p>
                                 </div>
                             </div>
                             <div class="arrow-btn">
-                                <a href="#">
+                                <a href="#" class="arrow-icon">
                                     <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_497)">
                                         <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -294,7 +294,7 @@ include("header.php"); ?>
                 <img src="image/lego-building.png" alt="">
             </div>
             <div class="arrow-btn">
-                <a href="#">
+                <a href="#" class="arrow-icon">
                     <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_1_497)">
                         <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -338,7 +338,7 @@ include("header.php"); ?>
                         </div>
                     </div>
                     <div class="arrow-btn">
-                        <a href="#">
+                        <a href="#" class="arrow-icon">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_497)">
                                 <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -369,7 +369,7 @@ include("header.php"); ?>
                         </div>
                     </div>
                     <div class="arrow-btn">
-                        <a href="#">
+                        <a href="#" class="arrow-icon">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_497)">
                                 <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -400,7 +400,7 @@ include("header.php"); ?>
                         </div>
                     </div>
                     <div class="arrow-btn">
-                        <a href="#">
+                        <a href="#" class="arrow-icon">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_497)">
                                 <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -439,7 +439,7 @@ include("header.php"); ?>
                         </div>
                     </div>
                     <div class="arrow-btn">
-                        <a href="#">
+                        <a href="#" class="arrow-icon">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_497)">
                                 <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -477,7 +477,7 @@ include("header.php"); ?>
                         </div>
                     </div>
                     <div class="arrow-btn">
-                        <a href="#">
+                        <a href="#" class="arrow-icon">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_497)">
                                 <path d="M21.5 10H0.5" stroke="#13DB81" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -522,35 +522,35 @@ include("header.php"); ?>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs.png" alt="">
+                                <img src="image/austr-gov.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs.png" alt="">
+                                <img src="image/tafe.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs.png" alt="">
+                                <img src="image/tas-tafe.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs.png" alt="">
+                                <img src="image/icon-water.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-6">
                         <div class="we-protect-box">
                             <div class="image">
-                                <img src="image/sbs.png" alt="">
+                                <img src="image/transgrid.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -613,7 +613,7 @@ include("header.php"); ?>
                                 <h3 class="title f-s-3">Government</h3>
                             </div>
                             <div class="arrow-btn">
-                                <a href="#">
+                                <a href="#" class="arrow-icon">
                                     <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_7_113)">
                                         <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -639,7 +639,7 @@ include("header.php"); ?>
                                 <h3 class="title f-s-3">Critical infrastructure</h3>
                             </div>
                             <div class="arrow-btn">
-                                <a href="#">
+                                <a href="#" class="arrow-icon">
                                     <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_7_113)">
                                         <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -665,7 +665,7 @@ include("header.php"); ?>
                                 <h3 class="title f-s-3">SME Business</h3>
                             </div>
                             <div class="arrow-btn">
-                                <a href="#">
+                                <a href="#" class="arrow-icon">
                                     <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_7_113)">
                                         <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -691,7 +691,7 @@ include("header.php"); ?>
                                 <h3 class="title f-s-3">Education</h3>
                             </div>
                             <div class="arrow-btn">
-                                <a href="#">
+                                <a href="#" class="arrow-icon">
                                     <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_7_113)">
                                         <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -731,7 +731,7 @@ include("header.php"); ?>
                     <div class="image">
                         <img src="image/news.png" class="img-cover" alt="">
                         <div class="arrow-btn">
-                            <a href="#">
+                            <a href="#" class="arrow-icon">
                                 <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_7_113)">
                                     <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -770,7 +770,7 @@ include("header.php"); ?>
                     <div class="image">
                         <img src="image/news.png" class="img-cover" alt="">
                         <div class="arrow-btn">
-                            <a href="#">
+                            <a href="#" class="arrow-icon">
                                 <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_7_113)">
                                     <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -809,7 +809,7 @@ include("header.php"); ?>
                     <div class="image">
                         <img src="image/news.png" class="img-cover" alt="">
                         <div class="arrow-btn">
-                            <a href="#">
+                            <a href="#" class="arrow-icon">
                                 <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_7_113)">
                                     <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -853,18 +853,20 @@ include("header.php"); ?>
                                 <a href="#">
                                     <img src="image/news.png" class="img-cover" alt="">
                                     <div class="arrow-btn">
-                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_7_113)">
-                                            <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                            <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                            <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                            </g>
-                                            <defs>
-                                            <clipPath id="clip0_7_113">
-                                            <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
-                                            </clipPath>
-                                            </defs>
-                                        </svg>
+                                        <span class="arrow-icon">
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_7_113)">
+                                                <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                                <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                                <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_7_113">
+                                                <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
+                                                </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
                                     </div>
                                 </a>
                             </div>
@@ -892,18 +894,20 @@ include("header.php"); ?>
                                 <a href="#">
                                     <img src="image/news.png" class="img-cover" alt="">
                                     <div class="arrow-btn">
-                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_7_113)">
-                                            <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                            <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                            <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                            </g>
-                                            <defs>
-                                            <clipPath id="clip0_7_113">
-                                            <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
-                                            </clipPath>
-                                            </defs>
-                                        </svg>
+                                        <span class="arrow-icon">
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_7_113)">
+                                                <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                                <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                                <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_7_113">
+                                                <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
+                                                </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
                                     </div>
                                 </a>
                             </div>
@@ -931,18 +935,20 @@ include("header.php"); ?>
                                 <a href="#">
                                     <img src="image/news.png" class="img-cover" alt="">
                                     <div class="arrow-btn">
-                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_7_113)">
-                                            <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                            <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                            <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
-                                            </g>
-                                            <defs>
-                                            <clipPath id="clip0_7_113">
-                                            <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
-                                            </clipPath>
-                                            </defs>
-                                        </svg>
+                                        <span class="arrow-icon">
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_7_113)">
+                                                <path d="M21.5 10.3931H0.5" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                                <path d="M12.5 1.39307L21.5 10.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                                <path d="M21.5 10.3931L12.5 19.3931" stroke="#1E1E1E" stroke-miterlimit="10" stroke-linecap="round"/>
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_7_113">
+                                                <rect width="22" height="19" fill="white" transform="translate(0 0.893066)"/>
+                                                </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
                                     </div>
                                 </a>
                             </div>
